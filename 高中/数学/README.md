@@ -24,6 +24,17 @@
 
 合计 13 单元 / 41 考点 / 123 道例题 / 91 条公式。
 
+## 下载
+
+已发布在 [v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)：
+
+| 格式 | 文件 | 用途 |
+|---|---|---|
+| PDF | [high-math-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-handbook.pdf) | 打印（70 页） |
+| HTML | [high-math-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-graph.html) | 浏览器打开，可搜索、看关系图 |
+| Excel | [high-math-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-points.xlsx) | 考点 / 例题 / 公式 / 关系清单 |
+| Word | [high-math-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-handbook.docx) | 需要二次编辑时用 |
+
 ## 构建
 
 ```bash

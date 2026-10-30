@@ -1,6 +1,6 @@
 # 上海初高中知识点汇总
 
-> 按教材逐节编排的**上海初高中知识图谱**：物理已发布（高中 166 考点 + 初中 43 考点），高中数学已完成必修三册 13 单元（41 考点 / 123 例题），之后扩展到语文、英语、化学、生物。
+> 按教材逐节编排的**上海初高中知识图谱**：物理已发布（高中 166 考点 + 初中 45 考点），高中数学已发布（必修三册 13 单元 / 41 考点 / 123 例题），之后扩展到初中数学、化学、生物、语文、英语。
 >
 > 每个考点配 3 道自评题 + 3 道梯度例题，支持「先测后学、会了就跳过」。
 
@@ -8,7 +8,7 @@
 
 ## 一、直接下载
 
-> 点击即下载，不需要登录。全部文件挂在 **[v1.0 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.0)**，支持断点续传。
+> 点击即下载，不需要登录。物理文件挂在 **[v1.0 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.0)**，高中数学文件挂在 **[v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)**，支持断点续传。
 
 ### 高中 · 物理（166 考点 / 229 页）
 
@@ -28,17 +28,26 @@
 | **Excel** | [junior-physics-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/junior-physics-points.xlsx) | 27 KB | 考点与公式清单 |
 | **Word** | [junior-physics-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/junior-physics-handbook.docx) | 81 KB | 需要二次编辑时用 |
 
+### 高中 · 数学（41 考点 / 70 页）
+
+| 格式 | 下载 | 大小 | 用途 |
+|---|---|---|---|
+| **PDF** | [high-math-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-handbook.pdf) | 5.5 MB | 打印，A4 单面约 70 张（双面 35 张） |
+| **HTML** | [high-math-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-graph.html) | 2.4 MB | 浏览器打开，可搜索、看关系图，单文件离线可用 |
+| **Excel** | [high-math-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-points.xlsx) | 27 KB | 5 个表：考点/例题/公式/关系/说明 |
+| **Word** | [high-math-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-handbook.docx) | 1.8 MB | 需要二次编辑时用 |
+
 > 文件名是英文的，下载后可自行改名；发布页上每个文件都标了中文名称。
 
 ### 其他学科：发布计划（预计）
 
-> 下面 12 项是**计划**，不是承诺。每完成一科会在本仓库新建对应目录并在这里更新链接。
+> 下面 11 项是**计划**，不是承诺。每完成一科会在本仓库新建对应目录并在这里更新链接。
 
 | 批次 | 学段 | 学科 | 状态 | 预计 |
 |---|---|---|---|---|
 | — | 高中 | **物理** | ✅ 已发布 | 2026-10 |
 | — | 初中 | **物理** | ✅ 已发布 | 2026-10 |
-| 第 2 批 | 高中 | 数学 | ✅ 已完成（13 单元 / 41 考点，待发布） | 2026-11 |
+| 第 2 批 | 高中 | 数学 | ✅ 已发布（v1.1） | 2026-10 |
 | 第 2 批 | 初中 | 数学 | 计划中 | 视进度 |
 | 第 3 批 | 高中 | 化学 | 计划中 | 视进度 |
 | 第 3 批 | 初中 | 化学 | 计划中 | 视进度 |
@@ -87,8 +96,9 @@
     │   ├── README.md
     │   ├── build/
     │   └── 输出/
-    ├── 数学/                    ✅ 已完成：13 单元 / 41 考点 / 123 例题
+    ├── 数学/                    ✅ 已发布：13 单元 / 41 考点 / 123 例题
     │   ├── 00-体例与符号规范.md
+    │   ├── 00a-怎么用这本书.md
     │   ├── 01~13-*.md          13 个单元知识卡
     │   ├── 教材对照表.md        三册 47 节逐节对应
     │   ├── README.md
@@ -110,13 +120,13 @@
 | 公式 | 59 | 184 | 243 |
 | 手册页数 | 54 | 229 | **283** |
 
-> 高中数学已完成：13 单元、41 考点、123 例题、91 条公式，产物见 `高中/数学/输出/`（待发布 Release）。
+> 高中数学已发布：13 单元、41 考点、123 例题、91 条公式、70 页手册，见 [v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)。
 
 ---
 
 ## 四、怎么用
 
-**打印**：下载对应 PDF，双面打印（初中约 26 张、高中约 115 张）。
+**打印**：下载对应 PDF，双面打印（初中物理约 26 张、高中物理约 115 张、高中数学约 35 张）。
 
 **电脑查**：下载 HTML 用浏览器打开——
 - 顶部搜索框查考点、公式；
@@ -134,6 +144,7 @@
 ```bash
 cd 高中/物理 && bash build/make.sh
 cd 初中/物理 && bash build/make.sh
+cd 高中/数学 && bash build/make.sh
 ```
 
 依赖：`python3`、`python-docx`、`openpyxl`、`markdown`、`matplotlib`、Google Chrome。
@@ -164,4 +175,4 @@ cd 初中/物理 && bash build/make.sh
 
 ## 八、更新
 
-物理两卷会持续修订（勘误、补例题、考频校准）。新增学科按"语文 → 数学 → 英语 → 化学 → 生物"推进，节奏看 Issues 里的呼声。
+物理两卷、高中数学卷会持续修订（勘误、补例题、考频校准）。新增学科按"初中数学 → 化学 → 生物 → 语文 → 英语"推进，节奏看 Issues 里的呼声。
