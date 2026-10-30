@@ -25,7 +25,8 @@
    - [x] E-4.1 Feeling good、E-4.2 Making a difference、E-4.3 Paying the price、E-4.4 The senses（选必一完成）
    - [x] E-5.1 Decisions、E-5.2 Digital humans、E-5.3 Creativity、E-5.4 Inspiration（选必二完成）
    - [x] E-6.1 Across the globe、E-6.2 Things that matter
-   - 剩余：E-6.3 起 6 张
+   - [x] E-6.3 Mind and body、E-6.4 Words（选必三完成）
+   - 剩余：选必四 E-7.1–E-7.4 共 4 张
 3. [ ] `build/parse.py` 解析卡片 → `data/考点库.json`
 4. [ ] `build/gen_html.py`：知识图谱 HTML（卡片 + 词汇交互打勾 + 图谱）
 5. [ ] `build/gen_docx.py`、`build/gen_xlsx.py`、PDF
