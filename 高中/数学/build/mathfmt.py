@@ -71,7 +71,7 @@ SUB = {
     "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4",
     "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9",
     "₊": "+", "₋": "-", "ₐ": "a", "ₑ": "e", "ₒ": "o",
-    "ₓ": "x", "ₙ": "n", "ₖ": "k", "ₘ": "m", "ₚ": "p", "ᵤ": "U",
+    "ₓ": "x", "ₙ": "n", "ₖ": "k", "ₘ": "m", "ₚ": "p", "ᵤ": "U", "ᵢ": "i",
 }
 
 BASE = r"A-Za-z0-9\)\]\{\}α-ωΑ-Ω∁"
@@ -94,11 +94,12 @@ def _readable(s: str) -> bool:
     return True
 
 
-def to_latex(s: str) -> str:
+def to_latex(s: str, _escaped: bool = False) -> str:
     s = s.strip()
 
     # 0. 源文件里的 { } 是集合花括号，先转义成字面量，避免被 LaTeX 当成分组
-    s = s.replace("{", r"\{").replace("}", r"\}")
+    if not _escaped:
+        s = s.replace("{", r"\{").replace("}", r"\}")
 
     # 0.5 向量箭头：a⃗ → \vec{a}，AB⃗ → \vec{AB}
     s = re.sub(r"(?<![A-Za-z0-9])([A-Za-z0-9]{1,2})\u20d7", lambda m: r"\vec{" + m.group(1) + "}", s)
@@ -136,7 +137,7 @@ def to_latex(s: str) -> str:
                         if depth == 0:
                             break
                     k += 1
-                out.append(r"\sqrt" + RAD[s[i]] + "{" + to_latex(s[j + 1:k]) + "}")
+                out.append(r"\sqrt" + RAD[s[i]] + "{" + to_latex(s[j + 1:k], _escaped=True) + "}")
                 i = k + 1
                 continue
             m2 = re.match(r"[A-Za-z0-9.]+|[" + "".join(GREEK) + r"]", s[j:])
@@ -222,7 +223,7 @@ def needs_render(s: str) -> bool:
 SPAN_RE = re.compile(
     "[" + SUP_CHARS + SUB_CHARS +
     r"A-Za-z0-9α-ωΑ-Ω√∝=+\-−×÷/()\[\].,·_{}½¼¾|^ \t"
-    r"≤≥≈≠<>→⇒⇔∈∉∪∩⊆⊂⊇∅∀∃ℝℕℤℚℂ⌒∽≌∴∵∧∨%°′≪≫⇄∛∜∥⊥:\u0300-\u036f\u20d7]{2,}")
+    r"≤≥≈≠<>→⇒⇔∈∉∪∩⊆⊂⊇∅∀∃ℝℕℤℚℂ⌒∽≌∴∵∧∨%°′≪≫⇄∛∜∥⊥∑∫:\u0300-\u036f\u20d7]{2,}")
 
 
 def spans(text: str, whole: bool = False):
@@ -230,7 +231,7 @@ def spans(text: str, whole: bool = False):
     out = []
     for m in SPAN_RE.finditer(text):
         raw = m.group(0)
-        if not any(k in raw for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>∥⊥"):
+        if not (any(k in raw for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>∥⊥") or "\u20d7" in raw):
             continue
         if not re.search(r"[A-Za-z" + "".join(GREEK) + r"]", raw):
             continue
@@ -261,7 +262,7 @@ def spans(text: str, whole: bool = False):
         # 括号不配对（例如被中文逗号截断的集合{x | x > 0，x∈R}）不转公式，避免 MathJax 报错
         if frag.count("{") != frag.count("}") or frag.count("(") != frag.count(")"):
             continue
-        if not any(k in frag for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>∥⊥"):
+        if not (any(k in frag for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>∥⊥") or "\u20d7" in frag):
             continue
         out.append((a, b, frag))
     return out

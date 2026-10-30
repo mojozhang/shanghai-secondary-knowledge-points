@@ -230,10 +230,10 @@ footer{border-top:1px solid var(--line);background:#fff;padding:6px 20px;font-si
   .cover{text-align:center;padding-top:70mm;page-break-after:always}
   .cover h1{font-size:26pt;color:#0b6b5b;margin:4mm 0;border:none;padding:0}
   .cover p{font-size:10pt;color:#555;margin:2mm}
-  .toc{page-break-after:always}
-  .toc h2{font-size:14pt;margin:0 0 4mm;color:#0b6b5b}
-  .toc-unit{font-size:9.5pt;line-height:1.6;color:#0b6b5b;font-weight:700;margin-top:2mm}
-  .toc-item{font-size:9pt;line-height:1.45;color:#222;padding-left:4mm}
+  .toc{page-break-after:always;column-count:2;column-gap:8mm}
+  .toc h2{font-size:14pt;margin:0 0 4mm;color:#0b6b5b;column-span:all}
+  .toc-unit{font-size:9pt;line-height:1.5;color:#0b6b5b;font-weight:700;margin-top:1.6mm;break-after:avoid}
+  .toc-item{font-size:8pt;line-height:1.35;color:#222;padding-left:3mm;break-inside:avoid}
   .guide{page-break-after:always}
 }
 </style></head>
