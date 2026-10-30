@@ -15,8 +15,9 @@
 - [x] `教材对照表.md`、`README.md`
 
 ## 待做（按顺序）
-1. [~] 第 6–7 册故事（第 1–6 册已完成，第 7 册待写）
+1. [x] 第 6–7 册故事（7/7 全部完成，逐词覆盖 1560/1560）
    - [x] 第 6 册 The Island Curriculum（4 章，覆盖 237/237）
+   - [x] 第 7 册 The Signal and the Story（4 章，覆盖 216/216）
    - 词表：`python3 -c "import sys;sys.path.insert(0,'build');import vocab;print([r['word'] for r in vocab.by_unit()['E-2.1']])"`
    - 写完把章节追加到 `data/故事.json` 对应册的 chapters
 2. [~] 28 张单元卡 `01..28-*.md`（模板见下）
