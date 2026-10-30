@@ -9,12 +9,13 @@
 - [x] 第 1 册故事：The Lantern in the Dorm（4 章，1408 词，覆盖 195/195）
 - [x] 第 2 册故事：The Risk Report（4 章，1349 词，覆盖 198/198）
 - [x] 第 3 册故事：The Fourth Estate Club（4 章，966 词，覆盖 208/208）
-- [~] 第 4 册故事：The Chocolate Theory（前 2 章完成，133/263）
+- [x] 第 4 册故事：The Chocolate Theory（4 章，1185 词，覆盖 263/263）
+- [x] 第 5 册故事：The Letter in the Mailbox（4 章，1158 词，覆盖 243/243）
 - [x] `build/story_check.py`：故事覆盖率检查
 - [x] `教材对照表.md`、`README.md`
 
 ## 待做（按顺序）
-1. [ ] 第 2–7 册故事（每册 4 章，覆盖本册全部词；用 story_check.py 验收 100%）
+1. [~] 第 6–7 册故事（第 1–5 册已完成，用 story_check.py 验收 100%）
    - 词表：`python3 -c "import sys;sys.path.insert(0,'build');import vocab;print([r['word'] for r in vocab.by_unit()['E-2.1']])"`
    - 写完把章节追加到 `data/故事.json` 对应册的 chapters
 2. [ ] 28 张单元卡 `01..28-*.md`（模板见下）
