@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+图/公式/
+图/png/
+输出/_预览/
