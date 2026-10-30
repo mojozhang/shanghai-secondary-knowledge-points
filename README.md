@@ -1,6 +1,6 @@
 # 上海初高中知识点汇总
 
-> 按教材逐节编排的**上海初高中知识图谱**：物理已发布（高中 166 考点 + 初中 45 考点），高中数学已发布（必修三册 13 单元 / 41 考点 / 123 例题），之后扩展到初中数学、化学、生物、语文、英语。
+> 按教材逐节编排的**上海初高中知识图谱**：物理已发布（高中 166 考点 + 初中 45 考点），高中数学已发布（13 单元 / 41 考点），高中英语已发布（28 单元 / 1560 词条 / 7 篇故事），之后扩展到初中数学、化学、生物、语文。
 >
 > 每个考点配 3 道自评题 + 3 道梯度例题，支持「先测后学、会了就跳过」。
 
@@ -8,7 +8,7 @@
 
 ## 一、直接下载
 
-> 点击即下载，不需要登录。物理文件挂在 **[v1.0 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.0)**，高中数学文件挂在 **[v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)**，支持断点续传。
+> 点击即下载，不需要登录。物理文件挂在 **[v1.0 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.0)**，高中数学挂在 **[v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)**，高中英语挂在 **[v1.2 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2)**，支持断点续传。
 
 ### 高中 · 物理（166 考点 / 229 页）
 
@@ -37,6 +37,16 @@
 | **Excel** | [high-math-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-points.xlsx) | 27 KB | 5 个表：考点/例题/公式/关系/说明 |
 | **Word** | [high-math-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.1/high-math-handbook.docx) | 1.8 MB | 需要二次编辑时用 |
 
+### 高中 · 英语（28 单元 / 1560 词条 / 7 篇故事）
+
+| 格式 | 下载 | 大小 | 用途 |
+|---|---|---|---|
+| **PDF（手册）** | [high-english-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-handbook.pdf) | 3.0 MB | 28 张单元卡，A4 打印 |
+| **PDF（词汇默写本）** | [high-english-vocab-workbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-vocab-workbook.pdf) | 8.8 MB | 词表 + 5 勾 + 7 篇故事 |
+| **HTML** | [high-english-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-graph.html) | 374 KB | 卡片 + 交互词汇打勾 + 随机抽词 |
+| **Excel** | [high-english-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-points.xlsx) | 134 KB | 单元 / 必背词 / 词汇总表 / 故事 |
+| **Word** | [high-english-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-handbook.docx) | 158 KB | 需要二次编辑时用 |
+
 > 文件名是英文的，下载后可自行改名；发布页上每个文件都标了中文名称。
 
 ### 其他学科：发布计划（预计）
@@ -55,7 +65,7 @@
 | 第 4 批 | 初中 | 生物 | 计划中 | 视进度 |
 | 第 5 批 | 高中 | 语文 | 计划中 | 视进度 |
 | 第 5 批 | 初中 | 语文 | 计划中 | 视进度 |
-| 第 6 批 | 高中 | 英语 | 计划中 | 视进度 |
+| 第 6 批 | 高中 | **英语** | ✅ 已发布（v1.2） | 2026-10 |
 | 第 6 批 | 初中 | 英语 | 计划中 | 视进度 |
 
 **为什么这个顺序：**
@@ -104,7 +114,13 @@
     │   ├── README.md
     │   ├── build/
     │   └── 输出/
-    └── 语文/ 英语/ 化学/ 生物/    规划中（占位）
+    ├── 英语/                    ✅ 已发布：28 单元 / 1560 词条 / 7 篇故事
+    │   ├── 01~07-*.md          7 册 28 张单元卡
+    │   ├── data/词汇库.json     1560 词条
+    │   ├── data/故事.json       7 篇故事
+    │   ├── build/
+    │   └── 输出/
+    └── 语文/ 化学/ 生物/          规划中（占位）
 ```
 
 ---
@@ -121,6 +137,8 @@
 | 手册页数 | 54 | 229 | **283** |
 
 > 高中数学已发布：13 单元、41 考点、123 例题、91 条公式、70 页手册，见 [v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)。
+>
+> 高中英语已发布：28 单元、1560 词条（去重 1440）、7 篇故事、86 页手册 + 111 页词汇默写本，见 [v1.2 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2)。
 
 ---
 
@@ -145,6 +163,7 @@
 cd 高中/物理 && bash build/make.sh
 cd 初中/物理 && bash build/make.sh
 cd 高中/数学 && bash build/make.sh
+cd 高中/英语 && bash build/make.sh
 ```
 
 依赖：`python3`、`python-docx`、`openpyxl`、`markdown`、`matplotlib`、Google Chrome。
@@ -175,4 +194,4 @@ cd 高中/数学 && bash build/make.sh
 
 ## 八、更新
 
-物理两卷、高中数学卷会持续修订（勘误、补例题、考频校准）。新增学科按"初中数学 → 化学 → 生物 → 语文 → 英语"推进，节奏看 Issues 里的呼声。
+物理两卷、高中数学、高中英语会持续修订（勘误、补例题、考频校准）。新增学科按"初中数学 → 化学 → 生物 → 语文"推进，节奏看 Issues 里的呼声。

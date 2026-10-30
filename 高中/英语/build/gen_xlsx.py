@@ -3,12 +3,15 @@
 import json
 import pathlib
 import re
+import sys
 
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "build"))
+import units_meta  # noqa: E402
 CARDS = json.loads((ROOT / "data" / "考点库.json").read_text(encoding="utf-8"))
 VOC = json.loads((ROOT / "data" / "词汇库.json").read_text(encoding="utf-8"))
 STORIES = json.loads((ROOT / "data" / "故事.json").read_text(encoding="utf-8"))
@@ -33,13 +36,15 @@ def main():
     ws.title = "单元总表"
     head(ws, ["编号", "单元", "册", "语法", "写作", "必背词数"],
          [8, 26, 14, 34, 40, 10])
+    meta = {u["id"]: u for u in units_meta.UNITS}
     best = {}
     for b in CARDS["books"]:
         for c in b["cards"]:
             m = re.search(r"本单元必背\s*\d+\s*词\s*\n+\s*(.+)", c["body"])
             words = [w.strip() for w in m.group(1).split(",") if w.strip()] if m else []
             best[c["id"]] = words
-            ws.append([c["id"], c["name"], b["title"], "", "", len(words)])
+            m = meta.get(c["id"], {})
+            ws.append([c["id"], c["name"], b["title"], m.get("grammar", ""), m.get("writing", ""), len(words)])
 
     ws = wb.create_sheet("必背词")
     head(ws, ["编号", "单元", "单词", "词性", "中文", "D0", "D+1", "D+3", "D+7", "D+15"],

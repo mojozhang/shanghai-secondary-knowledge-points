@@ -25,6 +25,18 @@
 | 选必四 | 4 | 216 | ✅ 4/4 | ✅ The Signal and the Story（216/216） |
 | **合计** | **28** | **1560（去重 1440）** | **28** | **7/7** |
 
+## 下载
+
+已发布在 [v1.2 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2)：
+
+| 格式 | 文件 | 用途 |
+|---|---|---|
+| PDF（手册） | [high-english-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-handbook.pdf) | 28 张单元卡，86 页 |
+| PDF（词汇默写本） | [high-english-vocab-workbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-vocab-workbook.pdf) | 词表 + 5 勾 + 7 篇故事，111 页 |
+| HTML | [high-english-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-graph.html) | 卡片 + 交互词汇打勾 |
+| Excel | [high-english-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-points.xlsx) | 单元 / 必背词 / 词汇总表 / 故事 |
+| Word | [high-english-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2/high-english-handbook.docx) | 二次编辑 |
+
 ## 构建
 
 ```bash
