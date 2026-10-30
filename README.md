@@ -8,25 +8,27 @@
 
 ## 一、直接下载
 
-> 点击即下载，不需要登录。PDF 较大（高中 14 MB），手机流量注意。
+> 点击即下载，不需要登录。全部文件挂在 **[v1.0 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.0)**，支持断点续传。
 
-### 高中 · 物理（已发布）
+### 高中 · 物理（166 考点 / 229 页）
 
-| 格式 | 文件 | 说明 |
-|---|---|---|
-| **PDF** | [上海高中物理知识图谱手册.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/raw/main/高中/物理/输出/上海高中物理知识图谱手册.pdf) | 229 页，打印用 |
-| **HTML** | [上海高中物理知识图谱.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/raw/main/高中/物理/输出/上海高中物理知识图谱.html) | 单文件，可搜索、可点关系图 |
-| **Excel** | [上海高中物理-考点公式清单.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/raw/main/高中/物理/输出/上海高中物理-考点公式清单.xlsx) | 6 个工作表 |
-| **Word** | [上海高中物理知识图谱手册.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/raw/main/高中/物理/输出/上海高中物理知识图谱手册.docx) | 可编辑 |
+| 格式 | 下载 | 大小 | 用途 |
+|---|---|---|---|
+| **PDF** | [high-physics-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/high-physics-handbook.pdf) | 14.5 MB | 打印，A4 双面约 115 张 |
+| **HTML** | [high-physics-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/high-physics-graph.html) | 3.7 MB | 浏览器打开，可搜索、点关系图 |
+| **Excel** | [high-physics-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/high-physics-points.xlsx) | 90 KB | 6 个表：考点/例题/公式/关系 |
+| **Word** | [high-physics-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/high-physics-handbook.docx) | 3.3 MB | 需要二次编辑时用 |
 
-### 初中 · 物理（已发布）
+### 初中 · 物理（43 考点 / 51 页）
 
-| 格式 | 文件 | 说明 |
-|---|---|---|
-| **PDF** | [上海初中物理知识图谱手册.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/raw/main/初中/物理/输出/上海初中物理知识图谱手册.pdf) | 51 页，打印用 |
-| **HTML** | [上海初中物理知识图谱.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/raw/main/初中/物理/输出/上海初中物理知识图谱.html) | 单文件，可搜索 |
-| **Excel** | [上海初中物理-考点公式清单.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/raw/main/初中/物理/输出/上海初中物理-考点公式清单.xlsx) | 考点与公式清单 |
-| **Word** | [上海初中物理知识图谱手册.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/raw/main/初中/物理/输出/上海初中物理知识图谱手册.docx) | 可编辑 |
+| 格式 | 下载 | 大小 | 用途 |
+|---|---|---|---|
+| **PDF** | [junior-physics-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/junior-physics-handbook.pdf) | 2.8 MB | 打印，A4 双面约 26 张 |
+| **HTML** | [junior-physics-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/junior-physics-graph.html) | 2.4 MB | 浏览器打开，可搜索 |
+| **Excel** | [junior-physics-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/junior-physics-points.xlsx) | 27 KB | 考点与公式清单 |
+| **Word** | [junior-physics-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/junior-physics-handbook.docx) | 81 KB | 需要二次编辑时用 |
+
+> 文件名是英文的，下载后可自行改名；发布页上每个文件都标了中文名称。
 
 ### 其他学科：发布计划（预计）
 
