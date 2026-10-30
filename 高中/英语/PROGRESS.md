@@ -22,7 +22,8 @@
    - [x] E-1.1 Our world、E-1.2 Places、E-1.3 Choices、E-1.4 My space（必修一完成）
    - [x] E-2.1 No limits、E-2.2 Roads to education、E-2.3 Progress?、E-2.4 Achievements（必修二完成）
    - [x] E-3.1 The media、E-3.2 The things around us、E-3.3 The way we are、E-3.4 Travellers' tales（必修三完成）
-   - 剩余：选必一 E-4.1 起 16 张
+   - [x] E-4.1 Feeling good、E-4.2 Making a difference、E-4.3 Paying the price、E-4.4 The senses（选必一完成）
+   - 剩余：选必二 E-5.1 起 12 张
 3. [ ] `build/parse.py` 解析卡片 → `data/考点库.json`
 4. [ ] `build/gen_html.py`：知识图谱 HTML（卡片 + 词汇交互打勾 + 图谱）
 5. [ ] `build/gen_docx.py`、`build/gen_xlsx.py`、PDF

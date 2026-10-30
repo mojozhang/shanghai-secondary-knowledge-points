@@ -773,11 +773,269 @@
      "file": "03-必修三.md"
     }
    ]
+  },
+  {
+   "title": "选择性必修第一册",
+   "file": "04-选必一.md",
+   "cards": [
+    {
+     "id": "E-4.1",
+     "name": "Feeling good",
+     "book_title": "选择性必修第一册",
+     "meta": "选必一 Unit 1 ｜ Ⅱ · 考频高 ｜ 话题：幸福与情绪 ｜ 语法：过去完成时 ｜ 本单元 63 词",
+     "guess": "\"When I arrived, the film had started.\" 中 had started 和 arrived 谁先发生？",
+     "sections": [
+      {
+       "title": "30 秒概述",
+       "body": "本单元讨论\"幸福感\"：读一篇关于快乐的科普文章（Is chocolate the answer?），学**过去完成时**，写一封**讲述个人经历的信**。词汇集中在情绪、健康、饮食与科学研究。"
+      },
+      {
+       "title": "30 秒自评",
+       "body": "1. 过去完成时表示\"过去的过去\"吗？\n2. \"by the time + 过去时\"的主句常用什么时态？\n3. 过去完成时能否与具体过去时间点连用？\n\n> **答案**：1. 是　2. 过去完成时（had done）　3. 一般不，除非强调\"到那时为止\""
+      },
+      {
+       "title": "🔑 核心词汇（10）",
+       "body": "- **associate** v. 联想；联系：**associate** A with B 把 A 与 B 联系起来；be **associated** with 与……有关\n- **essential** adj. 必不可少的：be **essential** to 对……至关重要；**essentially** adv. 本质上\n- **vital** adj. 至关重要的：be **vital** to 对……至关重要；**vitality** n. 活力\n- **anxiety** n. 焦虑：**anxiety** about 对……的焦虑；**anxious** adj. 焦虑的\n- **optimistic** adj. 乐观的：be **optimistic** about 对……乐观；**optimism** n. 乐观\n- **release** v./n. 释放：**release** pressure 释放压力；**release** a film 发行电影\n- **mood** n. 情绪：in a good **mood** 心情好；**mood** swings 情绪波动\n- **affect** v. 影响：**affect** mood 影响情绪；be **affected** by 受……影响\n- **appreciate** v. 欣赏；感激：**appreciate** the beauty 欣赏美；**appreciate** your help 感激你的帮助\n- **commitment** n. 投入；承诺：make a **commitment** 作出承诺；**commit** v. 投入"
+      },
+      {
+       "title": "🧩 短语与搭配（8）",
+       "body": "| 短语 | 意思 | 例句 |\n|---|---|---|\n| be associated with | 与……有关 | Happiness **is associated with** good sleep. |\n| be essential to | 对……必不可少 | Friends are **essential to** mental health. |\n| suffer from anxiety | 受焦虑困扰 | Many students **suffer from anxiety**. |\n| release pressure | 释放压力 | Exercise helps **release pressure**. |\n| in a good mood | 心情好 | She is **in a good mood** today. |\n| appreciate the importance of | 认识到……的重要性 | We should **appreciate the importance of** rest. |\n| make a commitment | 作出承诺 | He **made a commitment** to exercise daily. |\n| by the time | 到……的时候 | **By the time** we arrived, the show **had** ended. |"
+      },
+      {
+       "title": "📐 语法：过去完成时",
+       "body": "**结构**：had + 过去分词\n\n| 用法 | 例句 |\n|---|---|\n| 过去的过去 | When I arrived, the film **had started**. |\n| 到过去某时为止 | By last year, he **had written** three books. |\n| 与 before/after 连用 | She **had left** before I called. |\n| 虚拟语气（if 从句） | If I **had known**, I would have come. |\n\n**要点**\n1. 与一般过去时搭配：先发生的用 had done，后发生的用 did\n2. 常见标志：by the time, before, after, already, never, ever\n3. 宾语从句中，主句过去时，从句动作更早用 had done\n\n**易错边界**\n1. 两个动作顺序颠倒：When I arrived, the film started.（若想表达\"已开始\"，用 had started）\n2. 与具体过去时间连用：I had seen him yesterday.（×，应 saw）\n3. 现在完成与过去完成混用：By now, I had finished.（×，应为 have finished）\n\n**三个练习**\n1. By the time we got to the cinema, the film ________ (begin). → **had begun**\n2. She ________ (not finish) her homework before dinner. → **hadn't finished**\n3. 改错：After he had eaten, he goes out. → **went out**"
+      },
+      {
+       "title": "✍️ 写作：讲述个人经历的信",
+       "body": "**结构**：称呼 → 写信目的 → 经历（时间线：先发生用 had done）→ 感受与收获 → 期待回信\n\n**五个可套用句式**\n1. **I'm writing to tell you about...** 我写信是想告诉你……\n2. **It all started when...** 一切始于……\n3. **By the time I..., ... had already...** 等我……时，……已经……\n4. **What I learned from it was that...** 我从中领悟到……\n5. **I hope you can share your story too.** 希望你也分享你的故事。"
+      },
+      {
+       "title": "📖 阅读技能：把握作者语气",
+       "body": "科普文章常先提出问题，再给研究，最后给建议。注意 **however, surprisingly, in fact** 后的转折与强调，那通常是作者真正的观点。"
+      },
+      {
+       "title": "例题 1 · L1 词汇",
+       "body": "用方框中的词填空：essential / anxiety / optimistic / release / appreciate\n\n1. Sleep is ______ to good health.\n2. She felt ______ before the exam.\n3. He is ______ about the future.\n4. Music can help ______ pressure.\n5. I really ______ your help.\n\n**解析**：1. essential　2. anxious（名词 anxiety 此处需形容词）　3. optimistic　4. release　5. appreciate\n\n**💥 陷阱**：第 2 题 feel 后接形容词 anxious，不能填名词 anxiety。\n\n**变式**：用 be associated with 造句，表达\"规律锻炼与好心情有关\"。→ Regular exercise is associated with a good mood."
+      },
+      {
+       "title": "例题 2 · L2 语法",
+       "body": "用括号中动词的适当形式填空：\n1. By the time we arrived, the concert ________ (start).\n2. She told me she ________ (never see) the sea before.\n3. After he ________ (finish) the report, he went home.\n\n**解析**：1. had started　2. had never seen　3. had finished\n\n**💥 陷阱**：第 2 题直接引语变间接引语时，现在完成要变为过去完成。\n\n**变式**：把 \"I had finished the book before the film came out.\" 改为一般过去时（改变原意）。→ I finished the book before the film came out."
+      },
+      {
+       "title": "例题 3 · L3 翻译",
+       "body": "翻译下列句子：\n1. 等我到达车站时，火车已经开走了。\n2. 研究表明，睡眠不足会影响情绪，而运动能释放压力。\n3. 他承认，在参加志愿活动之前，他从未真正体会过幸福的含义。\n\n**参考译文**：\n1. **By the time** I got to the station, the train **had** already **left**.\n2. Research shows that **lack of sleep affects mood**, while exercise can **release pressure**.\n3. He admitted that he **had never really appreciated** the meaning of happiness before he **took part in** the volunteer work.\n\n**采分点**：① by the time + had left；② show that + affect + while；③ admitted that + 过去完成 + before 从句。\n\n**💥 陷阱**：第 1 句用 left（未体现\"已\"）；第 3 句 before 从句用过去完成（应为一般过去）。\n\n**变式**：把第 1 句改为 \"Hardly had...when...\" 倒装句：Hardly had I got to the station when the train left."
+      },
+      {
+       "title": "⏱️ 限时挑战（60 秒）",
+       "body": "① 过去完成时的结构？② 常见时间标志？③ 与一般过去时的区别？\n\n> 答案：① had done　② by the time, before, after, already　③ 先发生的用过去完成"
+      },
+      {
+       "title": "✅ 接下来做什么",
+       "body": "- **3 道全对** → 进入 E-4.2；词汇直接默写\"本单元必背 10 词\"。\n- **对 2 道** → 重读\"语法\"与\"写作\"，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。"
+      },
+      {
+       "title": "🧠 本单元必背 10 词",
+       "body": "associate, essential, vital, anxiety, optimistic, release, mood, affect, appreciate, commitment"
+      }
+     ],
+     "body": "*选必一 Unit 1 ｜ Ⅱ · 考频高 ｜ 话题：幸福与情绪 ｜ 语法：过去完成时 ｜ 本单元 63 词*\n\n**⚡ 先猜**：\"When I arrived, the film had started.\" 中 had started 和 arrived 谁先发生？\n\n### 30 秒概述\n\n本单元讨论\"幸福感\"：读一篇关于快乐的科普文章（Is chocolate the answer?），学**过去完成时**，写一封**讲述个人经历的信**。词汇集中在情绪、健康、饮食与科学研究。\n\n### 30 秒自评\n\n1. 过去完成时表示\"过去的过去\"吗？\n2. \"by the time + 过去时\"的主句常用什么时态？\n3. 过去完成时能否与具体过去时间点连用？\n\n> **答案**：1. 是　2. 过去完成时（had done）　3. 一般不，除非强调\"到那时为止\"\n\n### 🔑 核心词汇（10）\n\n- **associate** v. 联想；联系：**associate** A with B 把 A 与 B 联系起来；be **associated** with 与……有关\n- **essential** adj. 必不可少的：be **essential** to 对……至关重要；**essentially** adv. 本质上\n- **vital** adj. 至关重要的：be **vital** to 对……至关重要；**vitality** n. 活力\n- **anxiety** n. 焦虑：**anxiety** about 对……的焦虑；**anxious** adj. 焦虑的\n- **optimistic** adj. 乐观的：be **optimistic** about 对……乐观；**optimism** n. 乐观\n- **release** v./n. 释放：**release** pressure 释放压力；**release** a film 发行电影\n- **mood** n. 情绪：in a good **mood** 心情好；**mood** swings 情绪波动\n- **affect** v. 影响：**affect** mood 影响情绪；be **affected** by 受……影响\n- **appreciate** v. 欣赏；感激：**appreciate** the beauty 欣赏美；**appreciate** your help 感激你的帮助\n- **commitment** n. 投入；承诺：make a **commitment** 作出承诺；**commit** v. 投入\n\n### 🧩 短语与搭配（8）\n\n| 短语 | 意思 | 例句 |\n|---|---|---|\n| be associated with | 与……有关 | Happiness **is associated with** good sleep. |\n| be essential to | 对……必不可少 | Friends are **essential to** mental health. |\n| suffer from anxiety | 受焦虑困扰 | Many students **suffer from anxiety**. |\n| release pressure | 释放压力 | Exercise helps **release pressure**. |\n| in a good mood | 心情好 | She is **in a good mood** today. |\n| appreciate the importance of | 认识到……的重要性 | We should **appreciate the importance of** rest. |\n| make a commitment | 作出承诺 | He **made a commitment** to exercise daily. |\n| by the time | 到……的时候 | **By the time** we arrived, the show **had** ended. |\n\n### 📐 语法：过去完成时\n\n**结构**：had + 过去分词\n\n| 用法 | 例句 |\n|---|---|\n| 过去的过去 | When I arrived, the film **had started**. |\n| 到过去某时为止 | By last year, he **had written** three books. |\n| 与 before/after 连用 | She **had left** before I called. |\n| 虚拟语气（if 从句） | If I **had known**, I would have come. |\n\n**要点**\n1. 与一般过去时搭配：先发生的用 had done，后发生的用 did\n2. 常见标志：by the time, before, after, already, never, ever\n3. 宾语从句中，主句过去时，从句动作更早用 had done\n\n**易错边界**\n1. 两个动作顺序颠倒：When I arrived, the film started.（若想表达\"已开始\"，用 had started）\n2. 与具体过去时间连用：I had seen him yesterday.（×，应 saw）\n3. 现在完成与过去完成混用：By now, I had finished.（×，应为 have finished）\n\n**三个练习**\n1. By the time we got to the cinema, the film ________ (begin). → **had begun**\n2. She ________ (not finish) her homework before dinner. → **hadn't finished**\n3. 改错：After he had eaten, he goes out. → **went out**\n\n### ✍️ 写作：讲述个人经历的信\n\n**结构**：称呼 → 写信目的 → 经历（时间线：先发生用 had done）→ 感受与收获 → 期待回信\n\n**五个可套用句式**\n1. **I'm writing to tell you about...** 我写信是想告诉你……\n2. **It all started when...** 一切始于……\n3. **By the time I..., ... had already...** 等我……时，……已经……\n4. **What I learned from it was that...** 我从中领悟到……\n5. **I hope you can share your story too.** 希望你也分享你的故事。\n\n### 📖 阅读技能：把握作者语气\n\n科普文章常先提出问题，再给研究，最后给建议。注意 **however, surprisingly, in fact** 后的转折与强调，那通常是作者真正的观点。\n\n### 例题 1 · L1 词汇\n\n用方框中的词填空：essential / anxiety / optimistic / release / appreciate\n\n1. Sleep is ______ to good health.\n2. She felt ______ before the exam.\n3. He is ______ about the future.\n4. Music can help ______ pressure.\n5. I really ______ your help.\n\n**解析**：1. essential　2. anxious（名词 anxiety 此处需形容词）　3. optimistic　4. release　5. appreciate\n\n**💥 陷阱**：第 2 题 feel 后接形容词 anxious，不能填名词 anxiety。\n\n**变式**：用 be associated with 造句，表达\"规律锻炼与好心情有关\"。→ Regular exercise is associated with a good mood.\n\n### 例题 2 · L2 语法\n\n用括号中动词的适当形式填空：\n1. By the time we arrived, the concert ________ (start).\n2. She told me she ________ (never see) the sea before.\n3. After he ________ (finish) the report, he went home.\n\n**解析**：1. had started　2. had never seen　3. had finished\n\n**💥 陷阱**：第 2 题直接引语变间接引语时，现在完成要变为过去完成。\n\n**变式**：把 \"I had finished the book before the film came out.\" 改为一般过去时（改变原意）。→ I finished the book before the film came out.\n\n### 例题 3 · L3 翻译\n\n翻译下列句子：\n1. 等我到达车站时，火车已经开走了。\n2. 研究表明，睡眠不足会影响情绪，而运动能释放压力。\n3. 他承认，在参加志愿活动之前，他从未真正体会过幸福的含义。\n\n**参考译文**：\n1. **By the time** I got to the station, the train **had** already **left**.\n2. Research shows that **lack of sleep affects mood**, while exercise can **release pressure**.\n3. He admitted that he **had never really appreciated** the meaning of happiness before he **took part in** the volunteer work.\n\n**采分点**：① by the time + had left；② show that + affect + while；③ admitted that + 过去完成 + before 从句。\n\n**💥 陷阱**：第 1 句用 left（未体现\"已\"）；第 3 句 before 从句用过去完成（应为一般过去）。\n\n**变式**：把第 1 句改为 \"Hardly had...when...\" 倒装句：Hardly had I got to the station when the train left.\n\n### ⏱️ 限时挑战（60 秒）\n\n① 过去完成时的结构？② 常见时间标志？③ 与一般过去时的区别？\n\n> 答案：① had done　② by the time, before, after, already　③ 先发生的用过去完成\n\n### ✅ 接下来做什么\n\n- **3 道全对** → 进入 E-4.2；词汇直接默写\"本单元必背 10 词\"。\n- **对 2 道** → 重读\"语法\"与\"写作\"，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。\n\n### 🧠 本单元必背 10 词\n\nassociate, essential, vital, anxiety, optimistic, release, mood, affect, appreciate, commitment",
+     "file": "04-选必一.md"
+    },
+    {
+     "id": "E-4.2",
+     "name": "Making a difference",
+     "book_title": "选择性必修第一册",
+     "meta": "选必一 Unit 2 ｜ Ⅱ · 考频高 ｜ 话题：改变与公益 ｜ 语法：将来进行时 ｜ 本单元 67 词",
+     "guess": "\"This time tomorrow I will fly to London.\" 和 \"will be flying\" 有什么区别？",
+     "sections": [
+      {
+       "title": "30 秒概述",
+       "body": "本单元讲\"带来改变\"：读一个海岛社区的故事（Island story），学**将来进行时**，写一篇**支持慈善机构的观点文章**。词汇集中在环境保护、社区行动与传统文化。"
+      },
+      {
+       "title": "30 秒自评",
+       "body": "1. 将来进行时表示\"将来某时正在进行\"吗？\n2. \"will be doing\" 可以让语气更委婉吗？\n3. 将来进行时与一般将来时能互换吗？\n\n> **答案**：1. 是　2. 可以（Will you be joining us? 更客气）　3. 多数情况可换，但强调\"正在进行\"时不能"
+      },
+      {
+       "title": "🔑 核心词汇（10）",
+       "body": "- **preserve** v. 保护；保存：**preserve** traditions 保护传统；**preservation** n. 保护\n- **ancestor** n. 祖先：our **ancestors** 我们的祖先；**ancestral** adj. 祖先的\n- **shelter** n./v. 庇护所；遮蔽：take **shelter** 躲避；**shelter** from the rain 躲雨\n- **advocate** v./n. 提倡；倡导者：**advocate** doing 提倡做；an **advocate** of ……的倡导者\n- **conserve** v. 保护；节约：**conserve** energy 节约能源；**conservation** n. 保护\n- **sponsor** v./n. 赞助；赞助者：**sponsor** a race 赞助比赛；a **sponsor** of ……的赞助者\n- **transform** v. 转变：**transform** A into B 把 A 变成 B；**transformation** n. 转变\n- **involve** v. 涉及；使参与：**involve** the community 让社区参与；be **involved** in 参与\n- **perspective** n. 视角：from a different **perspective** 从不同角度；**perspective** on 对……的看法\n- **distant** adj. 遥远的：a **distant** island 遥远的岛；**distance** n. 距离"
+      },
+      {
+       "title": "🧩 短语与搭配（8）",
+       "body": "| 短语 | 意思 | 例句 |\n|---|---|---|\n| make a difference | 有影响；起作用 | Small actions can **make a difference**. |\n| preserve the tradition | 保护传统 | The festival helps **preserve the tradition**. |\n| take shelter | 躲避 | We **took shelter** from the storm. |\n| advocate doing | 提倡做 | They **advocate recycling** more. |\n| conserve energy | 节约能源 | New buildings **conserve energy**. |\n| sponsor a campaign | 赞助活动 | A local company **sponsored the campaign**. |\n| transform... into... | 把……变成 | They **transformed** the old school **into** a museum. |\n| from a global perspective | 从全球视角 | **From a global perspective**, the problem is urgent. |"
+      },
+      {
+       "title": "📐 语法：将来进行时",
+       "body": "**结构**：will be + 现在分词\n\n| 用法 | 例句 |\n|---|---|\n| 将来某时正在进行 | This time tomorrow I **will be flying** to London. |\n| 按计划将发生 | We **will be meeting** at nine. |\n| 委婉询问 | **Will you be joining** us for dinner? |\n| 与一般将来时对比 | I **will talk** to him.（意愿）/ I **will be talking** to him at 3.（进行） |\n\n**要点**\n1. 强调\"将来某一时刻正在做\"，常与 this time tomorrow, at 8 tomorrow 连用\n2. 也可表示\"料想中必然发生\"：Don't call at seven—we **will be having** dinner.\n3. 一般不用于\"临时决定\"\n\n**易错边界**\n1. 与一般将来时混用：This time tomorrow I will fly.（语法可，但少了\"正在进行\"意味）\n2. 状态动词用进行时：I will be knowing the answer.（×）\n3. will be doing 与 be going to do 混用导致计划性不明\n\n**三个练习**\n1. This time next week, we ________ (sit) on the beach. → **will be sitting**\n2. Don't phone at eight; I ________ (have) a meeting. → **will be having**\n3. 改错：Will you be come to the party? → **Will you be coming to the party?**"
+      },
+      {
+       "title": "✍️ 写作：支持慈善机构的观点文章",
+       "body": "**结构**：引出机构与主张 → 3 个理由（事实/例子）→ 回应反对意见 → 呼吁行动\n\n**五个可套用句式**\n1. **I am writing to argue that...** 我写此文是想主张……\n2. **The charity has been working to...** 该慈善机构一直致力于……\n3. **For one thing, ...; for another, ...** 一方面……；另一方面……\n4. **Some may argue that..., but...** 有人可能认为……，但是……\n5. **I urge everyone to...** 我呼吁大家……"
+      },
+      {
+       "title": "📖 阅读技能：识别\"问题—解决\"结构",
+       "body": "环保/公益类文章常按\"问题（现象+数据）→ 原因 → 解决方案 → 呼吁\"展开。读时给每段贴标签（问题/原因/对策），主旨题就不容易选错。"
+      },
+      {
+       "title": "例题 1 · L1 词汇",
+       "body": "用方框中的词填空：preserve / ancestor / shelter / advocate / transform\n\n1. We should ______ the old town before it is too late.\n2. Our ______ lived in this valley for centuries.\n3. The charity provides ______ for homeless people.\n4. Many experts ______ reducing plastic waste.\n5. The project ______ the empty factory into a community centre.\n\n**解析**：1. preserve　2. ancestors　3. shelter　4. advocate　5. transformed\n\n**💥 陷阱**：第 4 题 advocate 后接动名词（advocate reducing），不接 to do。\n\n**变式**：用 make a difference 造句，表达\"每个人的小行动都能带来改变\"。→ Everyone's small actions can make a difference."
+      },
+      {
+       "title": "例题 2 · L2 语法",
+       "body": "用将来进行时填空：\n1. This time tomorrow, I ________ (take) the exam.\n2. Don't call at 7; we ________ (have) dinner.\n3. ________ you ________ (join) us for the meeting at ten?\n\n**解析**：1. will be taking　2. will be having　3. Will；be joining\n\n**💥 陷阱**：第 3 题疑问句语序：Will you be joining（will 提前，be 保留）。\n\n**变式**：把 \"I will be meeting him at three.\" 改为一般将来时并说明差别。→ I will meet him at three.（表示安排/意愿，不强调进行）"
+      },
+      {
+       "title": "例题 3 · L3 翻译",
+       "body": "翻译下列句子：\n1. 这个慈善机构一直致力于保护海岛的传统，并让当地年轻人参与其中。\n2. 明天上午十点，我们将在社区中心讨论如何节约能源。\n3. 从全球视角看，小小的改变也能带来巨大的影响。\n\n**参考译文**：\n1. The **charity** has been working to **preserve** the island's **traditions** and to **involve** local young people.\n2. At ten tomorrow morning, we **will be discussing** how to **conserve energy** at the community centre.\n3. **From a global perspective**, small changes can **make a big difference**.\n\n**采分点**：① has been working to + involve；② 将来进行时 + how to do；③ from a global perspective。\n\n**💥 陷阱**：第 1 句 involve 后漏 in（involve sb in）；第 2 句用 will discuss（未体现\"正在\"）。\n\n**变式**：把第 1 句改为被动语态：The island's traditions are being preserved by the charity, and local young people are being involved."
+      },
+      {
+       "title": "⏱️ 限时挑战（60 秒）",
+       "body": "① 将来进行时的结构？② 它常与什么时间状语连用？③ \"Will you be joining us?\" 的语气？\n\n> 答案：① will be doing　② this time tomorrow, at 8 tomorrow　③ 更委婉"
+      },
+      {
+       "title": "✅ 接下来做什么",
+       "body": "- **3 道全对** → 进入 E-4.3；词汇直接默写\"本单元必背 10 词\"。\n- **对 2 道** → 重读\"语法\"与\"写作\"，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。"
+      },
+      {
+       "title": "🧠 本单元必背 10 词",
+       "body": "preserve, ancestor, shelter, advocate, conserve, sponsor, transform, involve, perspective, distant"
+      }
+     ],
+     "body": "*选必一 Unit 2 ｜ Ⅱ · 考频高 ｜ 话题：改变与公益 ｜ 语法：将来进行时 ｜ 本单元 67 词*\n\n**⚡ 先猜**：\"This time tomorrow I will fly to London.\" 和 \"will be flying\" 有什么区别？\n\n### 30 秒概述\n\n本单元讲\"带来改变\"：读一个海岛社区的故事（Island story），学**将来进行时**，写一篇**支持慈善机构的观点文章**。词汇集中在环境保护、社区行动与传统文化。\n\n### 30 秒自评\n\n1. 将来进行时表示\"将来某时正在进行\"吗？\n2. \"will be doing\" 可以让语气更委婉吗？\n3. 将来进行时与一般将来时能互换吗？\n\n> **答案**：1. 是　2. 可以（Will you be joining us? 更客气）　3. 多数情况可换，但强调\"正在进行\"时不能\n\n### 🔑 核心词汇（10）\n\n- **preserve** v. 保护；保存：**preserve** traditions 保护传统；**preservation** n. 保护\n- **ancestor** n. 祖先：our **ancestors** 我们的祖先；**ancestral** adj. 祖先的\n- **shelter** n./v. 庇护所；遮蔽：take **shelter** 躲避；**shelter** from the rain 躲雨\n- **advocate** v./n. 提倡；倡导者：**advocate** doing 提倡做；an **advocate** of ……的倡导者\n- **conserve** v. 保护；节约：**conserve** energy 节约能源；**conservation** n. 保护\n- **sponsor** v./n. 赞助；赞助者：**sponsor** a race 赞助比赛；a **sponsor** of ……的赞助者\n- **transform** v. 转变：**transform** A into B 把 A 变成 B；**transformation** n. 转变\n- **involve** v. 涉及；使参与：**involve** the community 让社区参与；be **involved** in 参与\n- **perspective** n. 视角：from a different **perspective** 从不同角度；**perspective** on 对……的看法\n- **distant** adj. 遥远的：a **distant** island 遥远的岛；**distance** n. 距离\n\n### 🧩 短语与搭配（8）\n\n| 短语 | 意思 | 例句 |\n|---|---|---|\n| make a difference | 有影响；起作用 | Small actions can **make a difference**. |\n| preserve the tradition | 保护传统 | The festival helps **preserve the tradition**. |\n| take shelter | 躲避 | We **took shelter** from the storm. |\n| advocate doing | 提倡做 | They **advocate recycling** more. |\n| conserve energy | 节约能源 | New buildings **conserve energy**. |\n| sponsor a campaign | 赞助活动 | A local company **sponsored the campaign**. |\n| transform... into... | 把……变成 | They **transformed** the old school **into** a museum. |\n| from a global perspective | 从全球视角 | **From a global perspective**, the problem is urgent. |\n\n### 📐 语法：将来进行时\n\n**结构**：will be + 现在分词\n\n| 用法 | 例句 |\n|---|---|\n| 将来某时正在进行 | This time tomorrow I **will be flying** to London. |\n| 按计划将发生 | We **will be meeting** at nine. |\n| 委婉询问 | **Will you be joining** us for dinner? |\n| 与一般将来时对比 | I **will talk** to him.（意愿）/ I **will be talking** to him at 3.（进行） |\n\n**要点**\n1. 强调\"将来某一时刻正在做\"，常与 this time tomorrow, at 8 tomorrow 连用\n2. 也可表示\"料想中必然发生\"：Don't call at seven—we **will be having** dinner.\n3. 一般不用于\"临时决定\"\n\n**易错边界**\n1. 与一般将来时混用：This time tomorrow I will fly.（语法可，但少了\"正在进行\"意味）\n2. 状态动词用进行时：I will be knowing the answer.（×）\n3. will be doing 与 be going to do 混用导致计划性不明\n\n**三个练习**\n1. This time next week, we ________ (sit) on the beach. → **will be sitting**\n2. Don't phone at eight; I ________ (have) a meeting. → **will be having**\n3. 改错：Will you be come to the party? → **Will you be coming to the party?**\n\n### ✍️ 写作：支持慈善机构的观点文章\n\n**结构**：引出机构与主张 → 3 个理由（事实/例子）→ 回应反对意见 → 呼吁行动\n\n**五个可套用句式**\n1. **I am writing to argue that...** 我写此文是想主张……\n2. **The charity has been working to...** 该慈善机构一直致力于……\n3. **For one thing, ...; for another, ...** 一方面……；另一方面……\n4. **Some may argue that..., but...** 有人可能认为……，但是……\n5. **I urge everyone to...** 我呼吁大家……\n\n### 📖 阅读技能：识别\"问题—解决\"结构\n\n环保/公益类文章常按\"问题（现象+数据）→ 原因 → 解决方案 → 呼吁\"展开。读时给每段贴标签（问题/原因/对策），主旨题就不容易选错。\n\n### 例题 1 · L1 词汇\n\n用方框中的词填空：preserve / ancestor / shelter / advocate / transform\n\n1. We should ______ the old town before it is too late.\n2. Our ______ lived in this valley for centuries.\n3. The charity provides ______ for homeless people.\n4. Many experts ______ reducing plastic waste.\n5. The project ______ the empty factory into a community centre.\n\n**解析**：1. preserve　2. ancestors　3. shelter　4. advocate　5. transformed\n\n**💥 陷阱**：第 4 题 advocate 后接动名词（advocate reducing），不接 to do。\n\n**变式**：用 make a difference 造句，表达\"每个人的小行动都能带来改变\"。→ Everyone's small actions can make a difference.\n\n### 例题 2 · L2 语法\n\n用将来进行时填空：\n1. This time tomorrow, I ________ (take) the exam.\n2. Don't call at 7; we ________ (have) dinner.\n3. ________ you ________ (join) us for the meeting at ten?\n\n**解析**：1. will be taking　2. will be having　3. Will；be joining\n\n**💥 陷阱**：第 3 题疑问句语序：Will you be joining（will 提前，be 保留）。\n\n**变式**：把 \"I will be meeting him at three.\" 改为一般将来时并说明差别。→ I will meet him at three.（表示安排/意愿，不强调进行）\n\n### 例题 3 · L3 翻译\n\n翻译下列句子：\n1. 这个慈善机构一直致力于保护海岛的传统，并让当地年轻人参与其中。\n2. 明天上午十点，我们将在社区中心讨论如何节约能源。\n3. 从全球视角看，小小的改变也能带来巨大的影响。\n\n**参考译文**：\n1. The **charity** has been working to **preserve** the island's **traditions** and to **involve** local young people.\n2. At ten tomorrow morning, we **will be discussing** how to **conserve energy** at the community centre.\n3. **From a global perspective**, small changes can **make a big difference**.\n\n**采分点**：① has been working to + involve；② 将来进行时 + how to do；③ from a global perspective。\n\n**💥 陷阱**：第 1 句 involve 后漏 in（involve sb in）；第 2 句用 will discuss（未体现\"正在\"）。\n\n**变式**：把第 1 句改为被动语态：The island's traditions are being preserved by the charity, and local young people are being involved.\n\n### ⏱️ 限时挑战（60 秒）\n\n① 将来进行时的结构？② 它常与什么时间状语连用？③ \"Will you be joining us?\" 的语气？\n\n> 答案：① will be doing　② this time tomorrow, at 8 tomorrow　③ 更委婉\n\n### ✅ 接下来做什么\n\n- **3 道全对** → 进入 E-4.3；词汇直接默写\"本单元必背 10 词\"。\n- **对 2 道** → 重读\"语法\"与\"写作\"，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。\n\n### 🧠 本单元必背 10 词\n\npreserve, ancestor, shelter, advocate, conserve, sponsor, transform, involve, perspective, distant",
+     "file": "04-选必一.md"
+    },
+    {
+     "id": "E-4.3",
+     "name": "Paying the price",
+     "book_title": "选择性必修第一册",
+     "meta": "选必一 Unit 3 ｜ Ⅱ · 考频高 ｜ 话题：消费与广告 ｜ 语法：过去进行时与过去完成时的被动语态 ｜ 本单元 66 词",
+     "guess": "\"When I got home, the package had been delivered.\" 用了什么时态和语态？",
+     "sections": [
+      {
+       "title": "30 秒概述",
+       "body": "本单元讨论\"网红与消费\"：读一篇关于网红营销的文章（The influencers），学**过去进行时与过去完成时的被动语态**，写一封**投诉信（letter of complaint）**。词汇集中在广告、品牌、合同与消费权益。"
+      },
+      {
+       "title": "30 秒自评",
+       "body": "1. 过去进行时的被动结构是 was/were being done 吗？\n2. 过去完成时的被动结构是 had been done 吗？\n3. 投诉信的语气应该强硬还是礼貌而坚定？\n\n> **答案**：1. 是　2. 是　3. 礼貌而坚定（firm but polite）"
+      },
+      {
+       "title": "🔑 核心词汇（10）",
+       "body": "- **advertisement** n. 广告：put an **advertisement** 登广告；a misleading **advertisement** 误导性广告\n- **celebrity** n. 名人：a **celebrity** endorsement 名人代言；**celebrities** 名人（复数）\n- **genuine** adj. 真正的；真诚的：a **genuine** product 正品；**genuine** interest 真正的兴趣\n- **contrary** adj./n. 相反的：**contrary** to 与……相反；on the **contrary** 恰恰相反\n- **launch** v./n. 推出；发起：**launch** a product 推出产品；**launch** a campaign 发起活动\n- **contract** n./v. 合同；收缩：sign a **contract** 签合同；**contract** a disease 染病\n- **luxury** n. 奢侈品；奢华：a **luxury** brand 奢侈品牌；live in **luxury** 过奢华生活\n- **purchase** v./n. 购买：**purchase** online 网购；make a **purchase** 购买\n- **ethical** adj. 道德的：**ethical** standards 道德标准；**ethics** n. 伦理\n- **complain** v. 投诉：**complain** about 投诉；**complaint** n. 投诉"
+      },
+      {
+       "title": "🧩 短语与搭配（8）",
+       "body": "| 短语 | 意思 | 例句 |\n|---|---|---|\n| be contrary to | 与……相反 | The ad is **contrary to** the facts. |\n| launch a product | 推出产品 | The company **launched** a new **product**. |\n| sign a contract | 签合同 | Read the **contract** before you **sign** it. |\n| make a purchase | 购买 | Keep the receipt after **making a purchase**. |\n| complain about | 投诉 | She **complained about** the quality. |\n| be aware of | 意识到 | Consumers should **be aware of** hidden costs. |\n| be entitled to | 有权享有 | You **are entitled to** a refund. |\n| in response to | 回应 | **In response to** your letter, we offer a refund. |"
+      },
+      {
+       "title": "📐 语法：过去进行时与过去完成时的被动语态",
+       "body": "| 时态 | 主动 | 被动 |\n|---|---|---|\n| 过去进行 | They **were repairing** the road. | The road **was being repaired**. |\n| 过去完成 | They **had repaired** the road. | The road **had been repaired**. |\n\n**用法**\n1. 过去进行时被动：过去某时正在被……（was/were being done）\n2. 过去完成时被动：到过去某时为止已经被……（had been done）\n3. 常用于叙述中：When I arrived, the goods **were being loaded** and the bill **had been paid**.\n\n**易错边界**\n1. 漏 being：The road was repaired when I passed.（若强调\"正在修\"，应为 was being repaired）\n2. had been 与 has been 混用：By last week, the order has been sent.（×）\n3. 被动语态中的 by 短语滥用：The letter was written by him.（可，但不必每句都加）\n\n**三个练习**\n1. When I got there, the interview ________ (conduct) in the hall. → **was being conducted**\n2. By the end of last month, all the tickets ________ (sell) out. → **had been sold**\n3. 改错：The house was painted when we arrived. → **was being painted**（强调正在进行）"
+      },
+      {
+       "title": "✍️ 写作：投诉信（letter of complaint）",
+       "body": "**结构**：称呼 → 说明购买/服务情况 → 问题（时间、细节）→ 期望的解决方式 → 礼貌结尾\n\n**五个可套用句式**\n1. **I am writing to complain about...** 我写信投诉……\n2. **I purchased... on... from your store.** 我于……在贵店购买了……\n3. **To my disappointment, ...** 令我失望的是……\n4. **I would like a refund / a replacement.** 我希望退款/换货。\n5. **I look forward to your reply and a satisfactory solution.** 期待回复与满意的解决方案。"
+      },
+      {
+       "title": "📖 阅读技能：识别广告中的说服手法",
+       "body": "常见手法：**名人代言**（celebrity endorsement）、**从众**（everyone is buying it）、**稀缺**（only today）、**科学包装**（studies show）。读广告时问三个问题：谁在说？证据是什么？它在激发什么情绪？"
+      },
+      {
+       "title": "例题 1 · L1 词汇",
+       "body": "用方框中的词填空：celebrity / genuine / launch / contract / complain\n\n1. The company will ______ a new phone next month.\n2. Is this a ______ product or a fake?\n3. She wrote to ______ about the poor service.\n4. Read the ______ carefully before signing.\n5. The ______ endorsed the brand for a huge fee.\n\n**解析**：1. launch　2. genuine　3. complain　4. contract　5. celebrity\n\n**💥 陷阱**：第 3 题 complain 后接 about，不能直接接宾语。\n\n**变式**：用 be contrary to 造句，表达\"这则广告与事实相反\"。→ The advertisement is contrary to the facts."
+      },
+      {
+       "title": "例题 2 · L2 语法",
+       "body": "用被动语态改写：\n1. They were interviewing the candidates when I arrived.\n2. They had delivered the parcel before noon.\n3. Someone was repairing my laptop at ten.\n\n**解析**：\n1. The candidates **were being interviewed** when I arrived.\n2. The parcel **had been delivered** before noon.\n3. My laptop **was being repaired** at ten.\n\n**💥 陷阱**：第 1 题用 were interviewed（一般过去被动），丢失\"正在进行\"。\n\n**变式**：把 \"By the time we got there, they had sold all the tickets.\" 改为被动。→ By the time we got there, all the tickets had been sold."
+      },
+      {
+       "title": "例题 3 · L3 翻译",
+       "body": "翻译下列句子：\n1. 我到达时，包裹正在被卸下，而账单已经被支付了。\n2. 这则广告与事实相反，许多消费者因此投诉。\n3. 我希望贵店能退款，并在今后遵守道德标准。\n\n**参考译文**：\n1. When I arrived, the parcels **were being unloaded** and the bill **had been paid**.\n2. The **advertisement** is **contrary to** the facts, and many **consumers** have **complained** about it.\n3. I hope your store will **give me a refund** and follow **ethical** standards in future.\n\n**采分点**：① 过去进行被动 + 过去完成被动；② be contrary to + complain about；③ refund + ethical standards。\n\n**💥 陷阱**：第 1 句两个被动时态混用；第 2 句 complain 后漏 about。\n\n**变式**：把第 2 句改为非限制性定语从句：The advertisement, which is contrary to the facts, has led to many complaints."
+      },
+      {
+       "title": "⏱️ 限时挑战（60 秒）",
+       "body": "① 过去进行时被动的结构？② 过去完成时被动的结构？③ 投诉信的语气要求？\n\n> 答案：① was/were being done　② had been done　③ 礼貌而坚定"
+      },
+      {
+       "title": "✅ 接下来做什么",
+       "body": "- **3 道全对** → 进入 E-4.4；词汇直接默写\"本单元必背 10 词\"。\n- **对 2 道** → 重读\"语法\"与\"写作\"，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。"
+      },
+      {
+       "title": "🧠 本单元必背 10 词",
+       "body": "advertisement, celebrity, genuine, contrary, launch, contract, luxury, purchase, ethical, complain"
+      }
+     ],
+     "body": "*选必一 Unit 3 ｜ Ⅱ · 考频高 ｜ 话题：消费与广告 ｜ 语法：过去进行时与过去完成时的被动语态 ｜ 本单元 66 词*\n\n**⚡ 先猜**：\"When I got home, the package had been delivered.\" 用了什么时态和语态？\n\n### 30 秒概述\n\n本单元讨论\"网红与消费\"：读一篇关于网红营销的文章（The influencers），学**过去进行时与过去完成时的被动语态**，写一封**投诉信（letter of complaint）**。词汇集中在广告、品牌、合同与消费权益。\n\n### 30 秒自评\n\n1. 过去进行时的被动结构是 was/were being done 吗？\n2. 过去完成时的被动结构是 had been done 吗？\n3. 投诉信的语气应该强硬还是礼貌而坚定？\n\n> **答案**：1. 是　2. 是　3. 礼貌而坚定（firm but polite）\n\n### 🔑 核心词汇（10）\n\n- **advertisement** n. 广告：put an **advertisement** 登广告；a misleading **advertisement** 误导性广告\n- **celebrity** n. 名人：a **celebrity** endorsement 名人代言；**celebrities** 名人（复数）\n- **genuine** adj. 真正的；真诚的：a **genuine** product 正品；**genuine** interest 真正的兴趣\n- **contrary** adj./n. 相反的：**contrary** to 与……相反；on the **contrary** 恰恰相反\n- **launch** v./n. 推出；发起：**launch** a product 推出产品；**launch** a campaign 发起活动\n- **contract** n./v. 合同；收缩：sign a **contract** 签合同；**contract** a disease 染病\n- **luxury** n. 奢侈品；奢华：a **luxury** brand 奢侈品牌；live in **luxury** 过奢华生活\n- **purchase** v./n. 购买：**purchase** online 网购；make a **purchase** 购买\n- **ethical** adj. 道德的：**ethical** standards 道德标准；**ethics** n. 伦理\n- **complain** v. 投诉：**complain** about 投诉；**complaint** n. 投诉\n\n### 🧩 短语与搭配（8）\n\n| 短语 | 意思 | 例句 |\n|---|---|---|\n| be contrary to | 与……相反 | The ad is **contrary to** the facts. |\n| launch a product | 推出产品 | The company **launched** a new **product**. |\n| sign a contract | 签合同 | Read the **contract** before you **sign** it. |\n| make a purchase | 购买 | Keep the receipt after **making a purchase**. |\n| complain about | 投诉 | She **complained about** the quality. |\n| be aware of | 意识到 | Consumers should **be aware of** hidden costs. |\n| be entitled to | 有权享有 | You **are entitled to** a refund. |\n| in response to | 回应 | **In response to** your letter, we offer a refund. |\n\n### 📐 语法：过去进行时与过去完成时的被动语态\n\n| 时态 | 主动 | 被动 |\n|---|---|---|\n| 过去进行 | They **were repairing** the road. | The road **was being repaired**. |\n| 过去完成 | They **had repaired** the road. | The road **had been repaired**. |\n\n**用法**\n1. 过去进行时被动：过去某时正在被……（was/were being done）\n2. 过去完成时被动：到过去某时为止已经被……（had been done）\n3. 常用于叙述中：When I arrived, the goods **were being loaded** and the bill **had been paid**.\n\n**易错边界**\n1. 漏 being：The road was repaired when I passed.（若强调\"正在修\"，应为 was being repaired）\n2. had been 与 has been 混用：By last week, the order has been sent.（×）\n3. 被动语态中的 by 短语滥用：The letter was written by him.（可，但不必每句都加）\n\n**三个练习**\n1. When I got there, the interview ________ (conduct) in the hall. → **was being conducted**\n2. By the end of last month, all the tickets ________ (sell) out. → **had been sold**\n3. 改错：The house was painted when we arrived. → **was being painted**（强调正在进行）\n\n### ✍️ 写作：投诉信（letter of complaint）\n\n**结构**：称呼 → 说明购买/服务情况 → 问题（时间、细节）→ 期望的解决方式 → 礼貌结尾\n\n**五个可套用句式**\n1. **I am writing to complain about...** 我写信投诉……\n2. **I purchased... on... from your store.** 我于……在贵店购买了……\n3. **To my disappointment, ...** 令我失望的是……\n4. **I would like a refund / a replacement.** 我希望退款/换货。\n5. **I look forward to your reply and a satisfactory solution.** 期待回复与满意的解决方案。\n\n### 📖 阅读技能：识别广告中的说服手法\n\n常见手法：**名人代言**（celebrity endorsement）、**从众**（everyone is buying it）、**稀缺**（only today）、**科学包装**（studies show）。读广告时问三个问题：谁在说？证据是什么？它在激发什么情绪？\n\n### 例题 1 · L1 词汇\n\n用方框中的词填空：celebrity / genuine / launch / contract / complain\n\n1. The company will ______ a new phone next month.\n2. Is this a ______ product or a fake?\n3. She wrote to ______ about the poor service.\n4. Read the ______ carefully before signing.\n5. The ______ endorsed the brand for a huge fee.\n\n**解析**：1. launch　2. genuine　3. complain　4. contract　5. celebrity\n\n**💥 陷阱**：第 3 题 complain 后接 about，不能直接接宾语。\n\n**变式**：用 be contrary to 造句，表达\"这则广告与事实相反\"。→ The advertisement is contrary to the facts.\n\n### 例题 2 · L2 语法\n\n用被动语态改写：\n1. They were interviewing the candidates when I arrived.\n2. They had delivered the parcel before noon.\n3. Someone was repairing my laptop at ten.\n\n**解析**：\n1. The candidates **were being interviewed** when I arrived.\n2. The parcel **had been delivered** before noon.\n3. My laptop **was being repaired** at ten.\n\n**💥 陷阱**：第 1 题用 were interviewed（一般过去被动），丢失\"正在进行\"。\n\n**变式**：把 \"By the time we got there, they had sold all the tickets.\" 改为被动。→ By the time we got there, all the tickets had been sold.\n\n### 例题 3 · L3 翻译\n\n翻译下列句子：\n1. 我到达时，包裹正在被卸下，而账单已经被支付了。\n2. 这则广告与事实相反，许多消费者因此投诉。\n3. 我希望贵店能退款，并在今后遵守道德标准。\n\n**参考译文**：\n1. When I arrived, the parcels **were being unloaded** and the bill **had been paid**.\n2. The **advertisement** is **contrary to** the facts, and many **consumers** have **complained** about it.\n3. I hope your store will **give me a refund** and follow **ethical** standards in future.\n\n**采分点**：① 过去进行被动 + 过去完成被动；② be contrary to + complain about；③ refund + ethical standards。\n\n**💥 陷阱**：第 1 句两个被动时态混用；第 2 句 complain 后漏 about。\n\n**变式**：把第 2 句改为非限制性定语从句：The advertisement, which is contrary to the facts, has led to many complaints.\n\n### ⏱️ 限时挑战（60 秒）\n\n① 过去进行时被动的结构？② 过去完成时被动的结构？③ 投诉信的语气要求？\n\n> 答案：① was/were being done　② had been done　③ 礼貌而坚定\n\n### ✅ 接下来做什么\n\n- **3 道全对** → 进入 E-4.4；词汇直接默写\"本单元必背 10 词\"。\n- **对 2 道** → 重读\"语法\"与\"写作\"，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。\n\n### 🧠 本单元必背 10 词\n\nadvertisement, celebrity, genuine, contrary, launch, contract, luxury, purchase, ethical, complain",
+     "file": "04-选必一.md"
+    },
+    {
+     "id": "E-4.4",
+     "name": "The senses",
+     "book_title": "选择性必修第一册",
+     "meta": "选必一 Unit 4 ｜ Ⅱ · 考频中 ｜ 话题：感官与味觉 ｜ 语法：表语从句 ｜ 本单元 67 词",
+     "guess": "\"The reason why he left is because he was tired.\" 这句话对吗？",
+     "sections": [
+      {
+       "title": "30 秒概述",
+       "body": "本单元讲\"感官\"：读一篇关于味觉的文章（A question of taste），学**表语从句**，写一份**调查报（survey report）**。词汇集中在味道、气味、感知与身体反应。"
+      },
+      {
+       "title": "30 秒自评",
+       "body": "1. 表语从句可以用 that, whether, what 引导吗？\n2. \"The reason is because...\" 是规范表达吗？\n3. 表语从句用陈述语序吗？\n\n> **答案**：1. 可以　2. 不规范，常用 The reason is that...　3. 是"
+      },
+      {
+       "title": "🔑 核心词汇（10）",
+       "body": "- **flavour** n. 味道：a strong **flavour** 浓烈的味道；**flavour** the soup 给汤调味\n- **scent** n. 气味；香味：the **scent** of flowers 花香；**scented** adj. 有香味的\n- **detect** v. 察觉：**detect** a change 察觉变化；**detection** n. 侦查\n- **distinguish** v. 区分：**distinguish** A from B 区分 A 与 B；**distinguishable** adj. 可区分的\n- **sensitive** adj. 敏感的：be **sensitive** to 对……敏感；**sensitivity** n. 敏感性\n- **perceive** v. 感知：**perceive** colours 感知颜色；**perception** n. 感知\n- **appetite** n. 食欲：lose one's **appetite** 没胃口；an **appetite** for 对……的渴望\n- **claim** v./n. 声称：**claim** that 声称；make a **claim** 提出主张\n- **combination** n. 组合：a **combination** of  ……的组合；**combine** v. 结合\n- **react** v. 反应：**react** to 对……作出反应；**reaction** n. 反应"
+      },
+      {
+       "title": "🧩 短语与搭配（8）",
+       "body": "| 短语 | 意思 | 例句 |\n|---|---|---|\n| a combination of | ……的组合 | Taste is **a combination of** smell and texture. |\n| be sensitive to | 对……敏感 | Some people **are sensitive to** bitter flavours. |\n| distinguish A from B | 区分 A 与 B | Can you **distinguish** salt **from** sugar? |\n| react to | 对……反应 | The tongue **reacts to** different chemicals. |\n| lose one's appetite | 没胃口 | He **lost his appetite** after the long trip. |\n| claim that | 声称 | The ad **claims that** the drink is healthy. |\n| perceive... as... | 把……视为 | We **perceive** sweetness **as** pleasant. |\n| be made up of | 由……组成 | The dish **is made up of** five ingredients. |"
+      },
+      {
+       "title": "📐 语法：表语从句",
+       "body": "**结构**：主语 + 系动词（be, seem, look, sound, taste, feel）+ 从句\n\n| 引导词 | 例句 |\n|---|---|\n| that | The truth is **that** taste is personal. |\n| whether | The question is **whether** we can trust our senses. |\n| what | What matters is **what** you remember. |\n| who / why / how | The reason is **why** the test failed. |\n| because | That is **because** smell affects taste. |\n| as if | It sounds **as if** the experiment worked. |\n\n**要点**\n1. 表语从句用**陈述语序**：The question is whether he **can** come.（不是 can he）\n2. that 在表语从句中通常不省略\n3. The reason is that...（不是 because）；That is because...（正确）\n\n**易错边界**\n1. 语序错误：The question is whether can he come.（×）\n2. The reason is because...（×，规范用 that）\n3. 表语从句与同位语从句混淆：The news that he won...（同位语）vs The fact is that he won...（表语）\n\n**三个练习**\n1. The problem is ________ we don't have enough data. → **that**\n2. That is ________ I want to say. → **what**\n3. 改错：The reason is because the soup is too salty. → **The reason is that the soup is too salty.**"
+      },
+      {
+       "title": "✍️ 写作：调查报（survey report）",
+       "body": "**结构**：调查目的与对象 → 主要发现（2–3 条，带数据）→ 原因分析 → 建议\n\n**五个可套用句式**\n1. **A survey was carried out among...** 在……中开展了调查。\n2. **According to the survey, ...** 根据调查，……\n3. **The majority of the students...** 大多数学生……\n4. **This may be because...** 这可能是因为……\n5. **It is suggested that...** 建议……"
+      },
+      {
+       "title": "📖 阅读技能：感官描写",
+       "body": "感官类文章常用**五感词**（sight, sound, smell, taste, touch）和比喻。读时把描写词分类，能快速抓住作者的态度（pleasant / unpleasant）；做词义猜测题时，上下文中的感官词就是线索。"
+      },
+      {
+       "title": "例题 1 · L1 词汇",
+       "body": "用方框中的词填空：flavour / scent / detect / distinguish / sensitive\n\n1. The ______ of coffee filled the room.\n2. This ice cream has a strange ______.\n3. Dogs can ______ smells that humans cannot.\n4. It is hard to ______ between the twins.\n5. Her skin is very ______ to the sun.\n\n**解析**：1. scent　2. flavour　3. detect　4. distinguish　5. sensitive\n\n**💥 陷阱**：第 4 题 distinguish 后接 between 或 A from B。\n\n**变式**：用 a combination of 造句，表达\"味道是气味与口感的组合\"。→ Flavour is a combination of smell and texture."
+      },
+      {
+       "title": "例题 2 · L2 语法",
+       "body": "用适当的引导词填空：\n1. The question is ______ we should trust our senses.\n2. That is ______ the experiment failed.\n3. ______ surprised me was his sharp sense of smell.\n\n**解析**：1. whether　2. why　3. What\n\n**💥 陷阱**：第 1 题用 if（表语从句一般用 whether）；第 2 题用 because（规范用 why/that）。\n\n**变式**：把 \"The reason is that the soup is too salty.\" 改为 \"That is...\" 句型。→ That is why the soup tastes too salty."
+      },
+      {
+       "title": "例题 3 · L3 翻译",
+       "body": "翻译下列句子：\n1. 研究表明，味觉是气味、口感与记忆的组合。\n2. 问题在于我们能否相信自己的感官。\n3. 大多数学生认为食堂的菜太咸，建议减少盐的用量。\n\n**参考译文**：\n1. Research shows that taste is **a combination of** smell, texture and memory.\n2. The question is **whether** we can trust our own senses.\n3. **The majority of** students think the food in the canteen is too salty and **suggest** reducing the amount of salt.\n\n**采分点**：① a combination of；② whether 引导表语从句（陈述语序）；③ the majority of + suggest doing。\n\n**💥 陷阱**：第 2 句语序错误（can we）；第 3 句 suggest 后接 to do（应为 doing）。\n\n**变式**：把第 1 句改为强调句：It is smell, texture and memory that make up taste."
+      },
+      {
+       "title": "⏱️ 限时挑战（60 秒）",
+       "body": "① 表语从句的语序？② \"The reason is...\" 后接 that 还是 because？③ 表语从句常用哪些引导词？\n\n> 答案：① 陈述语序　② that　③ that, whether, what, who, why, how, because, as if"
+      },
+      {
+       "title": "✅ 接下来做什么",
+       "body": "- **3 道全对** → 进入选必二；词汇直接默写\"本单元必背 10 词\"。\n- **对 2 道** → 重读\"语法\"与\"写作\"，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。"
+      },
+      {
+       "title": "🧠 本单元必背 10 词",
+       "body": "flavour, scent, detect, distinguish, sensitive, perceive, appetite, claim, combination, react"
+      }
+     ],
+     "body": "*选必一 Unit 4 ｜ Ⅱ · 考频中 ｜ 话题：感官与味觉 ｜ 语法：表语从句 ｜ 本单元 67 词*\n\n**⚡ 先猜**：\"The reason why he left is because he was tired.\" 这句话对吗？\n\n### 30 秒概述\n\n本单元讲\"感官\"：读一篇关于味觉的文章（A question of taste），学**表语从句**，写一份**调查报（survey report）**。词汇集中在味道、气味、感知与身体反应。\n\n### 30 秒自评\n\n1. 表语从句可以用 that, whether, what 引导吗？\n2. \"The reason is because...\" 是规范表达吗？\n3. 表语从句用陈述语序吗？\n\n> **答案**：1. 可以　2. 不规范，常用 The reason is that...　3. 是\n\n### 🔑 核心词汇（10）\n\n- **flavour** n. 味道：a strong **flavour** 浓烈的味道；**flavour** the soup 给汤调味\n- **scent** n. 气味；香味：the **scent** of flowers 花香；**scented** adj. 有香味的\n- **detect** v. 察觉：**detect** a change 察觉变化；**detection** n. 侦查\n- **distinguish** v. 区分：**distinguish** A from B 区分 A 与 B；**distinguishable** adj. 可区分的\n- **sensitive** adj. 敏感的：be **sensitive** to 对……敏感；**sensitivity** n. 敏感性\n- **perceive** v. 感知：**perceive** colours 感知颜色；**perception** n. 感知\n- **appetite** n. 食欲：lose one's **appetite** 没胃口；an **appetite** for 对……的渴望\n- **claim** v./n. 声称：**claim** that 声称；make a **claim** 提出主张\n- **combination** n. 组合：a **combination** of  ……的组合；**combine** v. 结合\n- **react** v. 反应：**react** to 对……作出反应；**reaction** n. 反应\n\n### 🧩 短语与搭配（8）\n\n| 短语 | 意思 | 例句 |\n|---|---|---|\n| a combination of | ……的组合 | Taste is **a combination of** smell and texture. |\n| be sensitive to | 对……敏感 | Some people **are sensitive to** bitter flavours. |\n| distinguish A from B | 区分 A 与 B | Can you **distinguish** salt **from** sugar? |\n| react to | 对……反应 | The tongue **reacts to** different chemicals. |\n| lose one's appetite | 没胃口 | He **lost his appetite** after the long trip. |\n| claim that | 声称 | The ad **claims that** the drink is healthy. |\n| perceive... as... | 把……视为 | We **perceive** sweetness **as** pleasant. |\n| be made up of | 由……组成 | The dish **is made up of** five ingredients. |\n\n### 📐 语法：表语从句\n\n**结构**：主语 + 系动词（be, seem, look, sound, taste, feel）+ 从句\n\n| 引导词 | 例句 |\n|---|---|\n| that | The truth is **that** taste is personal. |\n| whether | The question is **whether** we can trust our senses. |\n| what | What matters is **what** you remember. |\n| who / why / how | The reason is **why** the test failed. |\n| because | That is **because** smell affects taste. |\n| as if | It sounds **as if** the experiment worked. |\n\n**要点**\n1. 表语从句用**陈述语序**：The question is whether he **can** come.（不是 can he）\n2. that 在表语从句中通常不省略\n3. The reason is that...（不是 because）；That is because...（正确）\n\n**易错边界**\n1. 语序错误：The question is whether can he come.（×）\n2. The reason is because...（×，规范用 that）\n3. 表语从句与同位语从句混淆：The news that he won...（同位语）vs The fact is that he won...（表语）\n\n**三个练习**\n1. The problem is ________ we don't have enough data. → **that**\n2. That is ________ I want to say. → **what**\n3. 改错：The reason is because the soup is too salty. → **The reason is that the soup is too salty.**\n\n### ✍️ 写作：调查报（survey report）\n\n**结构**：调查目的与对象 → 主要发现（2–3 条，带数据）→ 原因分析 → 建议\n\n**五个可套用句式**\n1. **A survey was carried out among...** 在……中开展了调查。\n2. **According to the survey, ...** 根据调查，……\n3. **The majority of the students...** 大多数学生……\n4. **This may be because...** 这可能是因为……\n5. **It is suggested that...** 建议……\n\n### 📖 阅读技能：感官描写\n\n感官类文章常用**五感词**（sight, sound, smell, taste, touch）和比喻。读时把描写词分类，能快速抓住作者的态度（pleasant / unpleasant）；做词义猜测题时，上下文中的感官词就是线索。\n\n### 例题 1 · L1 词汇\n\n用方框中的词填空：flavour / scent / detect / distinguish / sensitive\n\n1. The ______ of coffee filled the room.\n2. This ice cream has a strange ______.\n3. Dogs can ______ smells that humans cannot.\n4. It is hard to ______ between the twins.\n5. Her skin is very ______ to the sun.\n\n**解析**：1. scent　2. flavour　3. detect　4. distinguish　5. sensitive\n\n**💥 陷阱**：第 4 题 distinguish 后接 between 或 A from B。\n\n**变式**：用 a combination of 造句，表达\"味道是气味与口感的组合\"。→ Flavour is a combination of smell and texture.\n\n### 例题 2 · L2 语法\n\n用适当的引导词填空：\n1. The question is ______ we should trust our senses.\n2. That is ______ the experiment failed.\n3. ______ surprised me was his sharp sense of smell.\n\n**解析**：1. whether　2. why　3. What\n\n**💥 陷阱**：第 1 题用 if（表语从句一般用 whether）；第 2 题用 because（规范用 why/that）。\n\n**变式**：把 \"The reason is that the soup is too salty.\" 改为 \"That is...\" 句型。→ That is why the soup tastes too salty.\n\n### 例题 3 · L3 翻译\n\n翻译下列句子：\n1. 研究表明，味觉是气味、口感与记忆的组合。\n2. 问题在于我们能否相信自己的感官。\n3. 大多数学生认为食堂的菜太咸，建议减少盐的用量。\n\n**参考译文**：\n1. Research shows that taste is **a combination of** smell, texture and memory.\n2. The question is **whether** we can trust our own senses.\n3. **The majority of** students think the food in the canteen is too salty and **suggest** reducing the amount of salt.\n\n**采分点**：① a combination of；② whether 引导表语从句（陈述语序）；③ the majority of + suggest doing。\n\n**💥 陷阱**：第 2 句语序错误（can we）；第 3 句 suggest 后接 to do（应为 doing）。\n\n**变式**：把第 1 句改为强调句：It is smell, texture and memory that make up taste.\n\n### ⏱️ 限时挑战（60 秒）\n\n① 表语从句的语序？② \"The reason is...\" 后接 that 还是 because？③ 表语从句常用哪些引导词？\n\n> 答案：① 陈述语序　② that　③ that, whether, what, who, why, how, because, as if\n\n### ✅ 接下来做什么\n\n- **3 道全对** → 进入选必二；词汇直接默写\"本单元必背 10 词\"。\n- **对 2 道** → 重读\"语法\"与\"写作\"，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。\n\n### 🧠 本单元必背 10 词\n\nflavour, scent, detect, distinguish, sensitive, perceive, appetite, claim, combination, react",
+     "file": "04-选必一.md"
+    }
+   ]
   }
  ],
  "stats": {
-  "books": 3,
-  "cards": 12,
-  "sections": 156
+  "books": 4,
+  "cards": 16,
+  "sections": 208
  }
 }
