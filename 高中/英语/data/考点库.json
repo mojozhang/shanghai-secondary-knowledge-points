@@ -1,0 +1,78 @@
+{
+ "books": [
+  {
+   "title": "必修第一册",
+   "file": "01-必修一.md",
+   "cards": [
+    {
+     "id": "E-1.1",
+     "name": "Our world",
+     "book_title": "必修第一册",
+     "meta": "必修一 Unit 1 ｜ Ⅱ · 考频高 ｜ 话题：世界与我们 ｜ 语法：现在进行时的被动语态 ｜ 本单元 49 词",
+     "guess": "\"I'm very exciting about the trip.\" 这句话对吗？",
+     "sections": [
+      {
+       "title": "30 秒概述",
+       "body": "本单元围绕\"我们生活的世界\"展开：读一篇普通人一天的生活（Life in a day），学**现在进行时的被动语态**（am/is/are being done），写一封介绍新学校生活的**非正式信件**。核心词集中在日常作息、数字生活与个人目标上。"
+      },
+      {
+       "title": "30 秒自评",
+       "body": "1. digital 的意思是\"数字的\"还是\"手指的\"？\n2. \"The classroom is being cleaned.\" 用的是什么语态？\n3. \"on schedule\" 的意思是\"按时\"还是\"在日程表上\"？\n\n> **答案**：1. 数字的（finger 才是\"手指\"）　2. 现在进行时的被动语态　3. 按时"
+      },
+      {
+       "title": "🔑 核心词汇（10）",
+       "body": "- **digital** adj. 数字的：a **digital** time capsule 数字时间胶囊；We live in a **digital** world.\n- **typical** adj. 典型的：a **typical** day 典型的一天；It is **typical** of him to be late.\n- **routine** n. 常规；惯例：daily **routine** 日常安排；My **routine** changes on Fridays.\n- **scene** n. 场面；现场：a familiar **scene** 熟悉的场景；the **scene** of the accident 事故现场\n- **earn** v. 挣得；赢得：**earn** a living 谋生；**earn** respect 赢得尊重\n- **goal** n. 目标；进球：set a **goal** 设定目标；score a **goal** 进一球\n- **partner** n. 搭档；伙伴：work with a **partner** 和搭档合作；a business **partner** 生意伙伴\n- **improve** v. 改进；提高：**improve** your English 提高英语；**improve** on the design 改进设计\n- **challenge** n./v. 挑战；质疑：face a **challenge** 面对挑战；**challenge** the result 质疑结果\n- **inspire** v. 激励；启发：**inspire** somebody to do 激励某人做；an **inspiring** story 鼓舞人心的故事"
+      },
+      {
+       "title": "🧩 短语与搭配（8）",
+       "body": "| 短语 | 意思 | 例句 |\n|---|---|---|\n| on schedule | 按时 | The project finished **on schedule**. |\n| be related to | 与……有关 | The two events are closely **related to** each other. |\n| respond to | 回应 | She **responded to** my email at once. |\n| a sense of freedom | 自由感 | Living alone gave him **a sense of freedom**. |\n| at midnight | 在午夜 | The clock struck **at midnight**. |\n| earn a living | 谋生 | He **earns a living** as a photographer. |\n| improve on | 对……加以改进 | Can you **improve on** this plan? |\n| inspire somebody to do | 激励某人做 | The talk **inspired** us **to** start a club. |"
+      },
+      {
+       "title": "📐 语法：现在进行时的被动语态",
+       "body": "**结构**：am / is / are **being** + 过去分词\n\n| 主语 | 形式 | 例句 |\n|---|---|---|\n| I | am being + done | I **am being** watched. |\n| he / she / it | is being + done | The road **is being** repaired. |\n| we / they | are being + done | The trees **are being** planted. |\n\n**用法**：表示\"此刻正在被……\"，强调动作正在进行且主语是承受者。\n\n**与一般现在时被动的区别**：\n- The classroom **is cleaned** every day.（每天都被打扫——习惯）\n- The classroom **is being cleaned** now.（此刻正在被打扫——进行）\n\n**易错边界**\n1. 漏掉 being：The road is repaired now.（×，缺\"正在\"）\n2. being 后误用动词原形：is being repair（×）\n3. 状态动词一般不用进行时：is being belonged to（×）\n\n**三个练习**\n1. The bridge ________ (build) at the moment. → **is being built**\n2. Look! The car ________ (wash) by my father. → **is being washed**\n3. 改错：The house is being paint by workers. → **painted**"
+      },
+      {
+       "title": "✍️ 写作：非正式信件（informal letter）",
+       "body": "**结构**：称呼 → 开头问候 → 主体（2 段：学校生活 + 感受）→ 结尾期待回信 → 署名\n\n**五个可套用句式**\n1. **How's it going?** 最近怎么样？\n2. **I've been here for a week, and I'm slowly getting used to...** 我来这儿一周了，正慢慢适应……\n3. **The thing I like most is...** 我最喜欢的是……\n4. **It's a bit hard to..., but I'm working on it.** ……有点难，但我正在努力。\n5. **Write back soon and tell me about...** 快回信，跟我说说……"
+      },
+      {
+       "title": "📖 阅读技能：找主题句",
+       "body": "说明文/记叙文的主题句常在**段首或段尾**。先看首句，再看末句；如果首句是细节，末句往往总结。练习时用笔划出每段第一句，读完再回看是否覆盖全段。"
+      },
+      {
+       "title": "例题 1 · L1 词汇",
+       "body": "用方框中的词填空：digital / typical / routine / earn / challenge\n\n1. It is a ______ day for a student: classes, lunch, homework.\n2. Many people ______ a living by writing.\n3. Learning a new language is a real ______.\n4. My morning ______ starts with a run.\n5. We live in a ______ age.\n\n**解析**：1. typical　2. earn　3. challenge　4. routine　5. digital\n\n**💥 陷阱**：第 1 题容易填 digital（\"数字的一天\"），但句意是\"典型的一天\"。\n\n**变式**：用 inspire 造句，表达\"这本书激励我学英语\"。（The book inspired me to learn English.）"
+      },
+      {
+       "title": "例题 2 · L2 语法",
+       "body": "把下列句子改为现在进行时的被动语态：\n1. They are building a new library.\n2. Someone is repairing my bike.\n3. The workers are planting trees.\n\n**解析**：\n1. A new library **is being built**.\n2. My bike **is being repaired**.\n3. Trees **are being planted** by the workers.\n\n**💥 陷阱**：第 1 题漏掉 being，写成 is built，变成\"一般现在时被动\"。\n\n**变式**：把 \"The room is being cleaned.\" 改为一般疑问句。（Is the room being cleaned?）"
+      },
+      {
+       "title": "例题 3 · L3 翻译",
+       "body": "翻译下列句子：\n1. 这所学校正在被重建，所以我们暂时在临时教室里上课。\n2. 让我印象最深的是这里的人：他们总是乐于回应别人的求助。\n3. 虽然日程很紧，我还是设法按时完成了项目。\n\n**参考译文**：\n1. The school **is being rebuilt**, so we are having classes in temporary classrooms for now.\n2. What **impressed** me most was the people here: they are always ready to **respond to** others' requests for help.\n3. Although the **schedule** was tight, I managed to finish the project **on schedule**.\n\n**采分点**：① 现在进行时被动 is being rebuilt；② impress 的用法 / respond to；③ on schedule 与 although 引导的让步状语从句。\n\n**💥 陷阱**：第 1 句写成 is rebuilt（缺\"正在\"）；第 3 句把 on schedule 写成 in schedule。\n\n**变式**：把第 2 句改为强调句：It was the people here that impressed me most."
+      },
+      {
+       "title": "⏱️ 限时挑战（60 秒）",
+       "body": "① digital 的反义词（提示：纸质）？② \"is being discussed\" 的中文意思？③ earn a living 的意思？\n\n> 答案：① paper / printed　② 正在被讨论　③ 谋生"
+      },
+      {
+       "title": "✅ 接下来做什么",
+       "body": "- **3 道全对** → 进入 E-1.2；词汇直接跳到\"本单元必背 10 词\"逐词默写。\n- **对 2 道** → 重读\"语法\"与\"写作\"两节，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。"
+      },
+      {
+       "title": "🧠 本单元必背 10 词",
+       "body": "digital, typical, routine, scene, earn, goal, partner, improve, challenge, inspire"
+      }
+     ],
+     "body": "*必修一 Unit 1 ｜ Ⅱ · 考频高 ｜ 话题：世界与我们 ｜ 语法：现在进行时的被动语态 ｜ 本单元 49 词*\n\n**⚡ 先猜**：\"I'm very exciting about the trip.\" 这句话对吗？\n\n### 30 秒概述\n\n本单元围绕\"我们生活的世界\"展开：读一篇普通人一天的生活（Life in a day），学**现在进行时的被动语态**（am/is/are being done），写一封介绍新学校生活的**非正式信件**。核心词集中在日常作息、数字生活与个人目标上。\n\n### 30 秒自评\n\n1. digital 的意思是\"数字的\"还是\"手指的\"？\n2. \"The classroom is being cleaned.\" 用的是什么语态？\n3. \"on schedule\" 的意思是\"按时\"还是\"在日程表上\"？\n\n> **答案**：1. 数字的（finger 才是\"手指\"）　2. 现在进行时的被动语态　3. 按时\n\n### 🔑 核心词汇（10）\n\n- **digital** adj. 数字的：a **digital** time capsule 数字时间胶囊；We live in a **digital** world.\n- **typical** adj. 典型的：a **typical** day 典型的一天；It is **typical** of him to be late.\n- **routine** n. 常规；惯例：daily **routine** 日常安排；My **routine** changes on Fridays.\n- **scene** n. 场面；现场：a familiar **scene** 熟悉的场景；the **scene** of the accident 事故现场\n- **earn** v. 挣得；赢得：**earn** a living 谋生；**earn** respect 赢得尊重\n- **goal** n. 目标；进球：set a **goal** 设定目标；score a **goal** 进一球\n- **partner** n. 搭档；伙伴：work with a **partner** 和搭档合作；a business **partner** 生意伙伴\n- **improve** v. 改进；提高：**improve** your English 提高英语；**improve** on the design 改进设计\n- **challenge** n./v. 挑战；质疑：face a **challenge** 面对挑战；**challenge** the result 质疑结果\n- **inspire** v. 激励；启发：**inspire** somebody to do 激励某人做；an **inspiring** story 鼓舞人心的故事\n\n### 🧩 短语与搭配（8）\n\n| 短语 | 意思 | 例句 |\n|---|---|---|\n| on schedule | 按时 | The project finished **on schedule**. |\n| be related to | 与……有关 | The two events are closely **related to** each other. |\n| respond to | 回应 | She **responded to** my email at once. |\n| a sense of freedom | 自由感 | Living alone gave him **a sense of freedom**. |\n| at midnight | 在午夜 | The clock struck **at midnight**. |\n| earn a living | 谋生 | He **earns a living** as a photographer. |\n| improve on | 对……加以改进 | Can you **improve on** this plan? |\n| inspire somebody to do | 激励某人做 | The talk **inspired** us **to** start a club. |\n\n### 📐 语法：现在进行时的被动语态\n\n**结构**：am / is / are **being** + 过去分词\n\n| 主语 | 形式 | 例句 |\n|---|---|---|\n| I | am being + done | I **am being** watched. |\n| he / she / it | is being + done | The road **is being** repaired. |\n| we / they | are being + done | The trees **are being** planted. |\n\n**用法**：表示\"此刻正在被……\"，强调动作正在进行且主语是承受者。\n\n**与一般现在时被动的区别**：\n- The classroom **is cleaned** every day.（每天都被打扫——习惯）\n- The classroom **is being cleaned** now.（此刻正在被打扫——进行）\n\n**易错边界**\n1. 漏掉 being：The road is repaired now.（×，缺\"正在\"）\n2. being 后误用动词原形：is being repair（×）\n3. 状态动词一般不用进行时：is being belonged to（×）\n\n**三个练习**\n1. The bridge ________ (build) at the moment. → **is being built**\n2. Look! The car ________ (wash) by my father. → **is being washed**\n3. 改错：The house is being paint by workers. → **painted**\n\n### ✍️ 写作：非正式信件（informal letter）\n\n**结构**：称呼 → 开头问候 → 主体（2 段：学校生活 + 感受）→ 结尾期待回信 → 署名\n\n**五个可套用句式**\n1. **How's it going?** 最近怎么样？\n2. **I've been here for a week, and I'm slowly getting used to...** 我来这儿一周了，正慢慢适应……\n3. **The thing I like most is...** 我最喜欢的是……\n4. **It's a bit hard to..., but I'm working on it.** ……有点难，但我正在努力。\n5. **Write back soon and tell me about...** 快回信，跟我说说……\n\n### 📖 阅读技能：找主题句\n\n说明文/记叙文的主题句常在**段首或段尾**。先看首句，再看末句；如果首句是细节，末句往往总结。练习时用笔划出每段第一句，读完再回看是否覆盖全段。\n\n### 例题 1 · L1 词汇\n\n用方框中的词填空：digital / typical / routine / earn / challenge\n\n1. It is a ______ day for a student: classes, lunch, homework.\n2. Many people ______ a living by writing.\n3. Learning a new language is a real ______.\n4. My morning ______ starts with a run.\n5. We live in a ______ age.\n\n**解析**：1. typical　2. earn　3. challenge　4. routine　5. digital\n\n**💥 陷阱**：第 1 题容易填 digital（\"数字的一天\"），但句意是\"典型的一天\"。\n\n**变式**：用 inspire 造句，表达\"这本书激励我学英语\"。（The book inspired me to learn English.）\n\n### 例题 2 · L2 语法\n\n把下列句子改为现在进行时的被动语态：\n1. They are building a new library.\n2. Someone is repairing my bike.\n3. The workers are planting trees.\n\n**解析**：\n1. A new library **is being built**.\n2. My bike **is being repaired**.\n3. Trees **are being planted** by the workers.\n\n**💥 陷阱**：第 1 题漏掉 being，写成 is built，变成\"一般现在时被动\"。\n\n**变式**：把 \"The room is being cleaned.\" 改为一般疑问句。（Is the room being cleaned?）\n\n### 例题 3 · L3 翻译\n\n翻译下列句子：\n1. 这所学校正在被重建，所以我们暂时在临时教室里上课。\n2. 让我印象最深的是这里的人：他们总是乐于回应别人的求助。\n3. 虽然日程很紧，我还是设法按时完成了项目。\n\n**参考译文**：\n1. The school **is being rebuilt**, so we are having classes in temporary classrooms for now.\n2. What **impressed** me most was the people here: they are always ready to **respond to** others' requests for help.\n3. Although the **schedule** was tight, I managed to finish the project **on schedule**.\n\n**采分点**：① 现在进行时被动 is being rebuilt；② impress 的用法 / respond to；③ on schedule 与 although 引导的让步状语从句。\n\n**💥 陷阱**：第 1 句写成 is rebuilt（缺\"正在\"）；第 3 句把 on schedule 写成 in schedule。\n\n**变式**：把第 2 句改为强调句：It was the people here that impressed me most.\n\n### ⏱️ 限时挑战（60 秒）\n\n① digital 的反义词（提示：纸质）？② \"is being discussed\" 的中文意思？③ earn a living 的意思？\n\n> 答案：① paper / printed　② 正在被讨论　③ 谋生\n\n### ✅ 接下来做什么\n\n- **3 道全对** → 进入 E-1.2；词汇直接跳到\"本单元必背 10 词\"逐词默写。\n- **对 2 道** → 重读\"语法\"与\"写作\"两节，再做例题 2、3。\n- **对 0–1 道** → 从\"核心词汇\"顺序读到例题 3，再背词表。\n\n> **过关线**：期中做到例题 2｜期末做到例题 3 和变式。\n\n### 🧠 本单元必背 10 词\n\ndigital, typical, routine, scene, earn, goal, partner, improve, challenge, inspire",
+     "file": "01-必修一.md"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "books": 1,
+  "cards": 1,
+  "sections": 13
+ }
+}
