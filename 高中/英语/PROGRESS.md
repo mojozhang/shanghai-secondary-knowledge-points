@@ -18,7 +18,10 @@
 1. [~] 第 6–7 册故事（第 1–5 册已完成，用 story_check.py 验收 100%）
    - 词表：`python3 -c "import sys;sys.path.insert(0,'build');import vocab;print([r['word'] for r in vocab.by_unit()['E-2.1']])"`
    - 写完把章节追加到 `data/故事.json` 对应册的 chapters
-2. [ ] 28 张单元卡 `01..28-*.md`（模板见下）
+2. [~] 28 张单元卡 `01..28-*.md`（模板见下）
+   - [x] E-1.1 Our world
+   - [x] E-1.2 Places
+   - 剩余：E-1.3 起 26 张（按册写：01-必修一.md 已有 2 张）
 3. [ ] `build/parse.py` 解析卡片 → `data/考点库.json`
 4. [ ] `build/gen_html.py`：知识图谱 HTML（卡片 + 词汇交互打勾 + 图谱）
 5. [ ] `build/gen_docx.py`、`build/gen_xlsx.py`、PDF
