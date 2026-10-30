@@ -7,6 +7,9 @@
 - [x] `build/gen_vocab_book.py`：词汇默写本 HTML（封面/说明/目录/故事/单元词表/总表/错词表/遮挡条）
 - [x] `build/make.sh`：生成 HTML → 检查故事覆盖 → Chrome 打印 PDF（94 页）
 - [x] 第 1 册故事：The Lantern in the Dorm（4 章，1408 词，覆盖 195/195）
+- [x] 第 2 册故事：The Risk Report（4 章，1349 词，覆盖 198/198）
+- [x] 第 3 册故事：The Fourth Estate Club（4 章，966 词，覆盖 208/208）
+- [~] 第 4 册故事：The Chocolate Theory（前 2 章完成，133/263）
 - [x] `build/story_check.py`：故事覆盖率检查
 - [x] `教材对照表.md`、`README.md`
 
