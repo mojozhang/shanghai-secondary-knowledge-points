@@ -16,7 +16,7 @@ def forms(word):
     w = re.escape(word)
     if " " in word:
         return [re.compile(re.escape(word), re.I)]
-    pats = [re.compile(r"\b" + w + r"(s|es|ed|d|ing|ly|er|est|ies|ied)?\b", re.I)]
+    pats = [re.compile(r"\b" + w + r"(s|es|ed|d|ing|ly|er|ers|est|ies|ied|ion|ions|ment|ments|ness)?\b", re.I)]
     if len(word) > 2 and word[-1].isalpha():
         pats.append(re.compile(r"\b" + re.escape(word[:-1]) + re.escape(word[-1]) + re.escape(word[-1])
                                + r"(ed|ing|er|est)\b", re.I))

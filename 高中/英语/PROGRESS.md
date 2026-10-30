@@ -15,7 +15,8 @@
 - [x] `教材对照表.md`、`README.md`
 
 ## 待做（按顺序）
-1. [~] 第 6–7 册故事（第 1–5 册已完成，用 story_check.py 验收 100%）
+1. [~] 第 6–7 册故事（第 1–6 册已完成，第 7 册待写）
+   - [x] 第 6 册 The Island Curriculum（4 章，覆盖 237/237）
    - 词表：`python3 -c "import sys;sys.path.insert(0,'build');import vocab;print([r['word'] for r in vocab.by_unit()['E-2.1']])"`
    - 写完把章节追加到 `data/故事.json` 对应册的 chapters
 2. [~] 28 张单元卡 `01..28-*.md`（模板见下）
