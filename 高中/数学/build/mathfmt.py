@@ -86,7 +86,7 @@ def _readable(s: str) -> bool:
             continue
         if c in GREEK or c in SYMBOLS or c in SUB or c in SUP:
             continue
-        if c in "√∛∜½¼¾":
+        if c in "√∛∜½¼¾\u20d7":
             continue
         if 0x0300 <= ord(c) <= 0x036F:
             continue
@@ -99,6 +99,10 @@ def to_latex(s: str) -> str:
 
     # 0. 源文件里的 { } 是集合花括号，先转义成字面量，避免被 LaTeX 当成分组
     s = s.replace("{", r"\{").replace("}", r"\}")
+
+    # 0.5 向量箭头：a⃗ → \vec{a}，AB⃗ → \vec{AB}
+    s = re.sub(r"(?<![A-Za-z0-9])([A-Za-z0-9]{1,2})\u20d7", lambda m: r"\vec{" + m.group(1) + "}", s)
+    s = re.sub(r"([A-Za-z0-9])\u20d7", lambda m: r"\vec{" + m.group(1) + "}", s)
 
     # 1. 组合重音：v̄ → \bar{v}
     s = re.sub(r"([A-Za-zα-ωΑ-Ω])\u0304", lambda m: r"\bar{" + m.group(1) + "}", s)
@@ -212,13 +216,13 @@ def is_formula(s: str) -> bool:
 
 def needs_render(s: str) -> bool:
     """含根号/上下标/分数/组合重音/下划线的公式值得单独渲染。"""
-    return any(c in s for c in "√²³⁰¹⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉_^½")
+    return any(c in s for c in "√²³⁰¹⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉_^½\u20d7∥⊥")
 
 
 SPAN_RE = re.compile(
     "[" + SUP_CHARS + SUB_CHARS +
     r"A-Za-z0-9α-ωΑ-Ω√∝=+\-−×÷/()\[\].,·_{}½¼¾|^ \t"
-    r"≤≥≈≠<>→⇒⇔∈∉∪∩⊆⊂⊇∅∀∃ℝℕℤℚℂ⌒∽≌∴∵∧∨%°′≪≫⇄∛∜:\u0300-\u036f]{2,}")
+    r"≤≥≈≠<>→⇒⇔∈∉∪∩⊆⊂⊇∅∀∃ℝℕℤℚℂ⌒∽≌∴∵∧∨%°′≪≫⇄∛∜∥⊥:\u0300-\u036f\u20d7]{2,}")
 
 
 def spans(text: str, whole: bool = False):
@@ -226,7 +230,7 @@ def spans(text: str, whole: bool = False):
     out = []
     for m in SPAN_RE.finditer(text):
         raw = m.group(0)
-        if not any(k in raw for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>"):
+        if not any(k in raw for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>∥⊥"):
             continue
         if not re.search(r"[A-Za-z" + "".join(GREEK) + r"]", raw):
             continue
@@ -257,7 +261,7 @@ def spans(text: str, whole: bool = False):
         # 括号不配对（例如被中文逗号截断的集合{x | x > 0，x∈R}）不转公式，避免 MathJax 报错
         if frag.count("{") != frag.count("}") or frag.count("(") != frag.count(")"):
             continue
-        if not any(k in frag for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>"):
+        if not any(k in frag for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>∥⊥"):
             continue
         out.append((a, b, frag))
     return out

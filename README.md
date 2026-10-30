@@ -19,7 +19,7 @@
 | **Excel** | [high-physics-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/high-physics-points.xlsx) | 90 KB | 6 个表：考点/例题/公式/关系 |
 | **Word** | [high-physics-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.0/high-physics-handbook.docx) | 3.3 MB | 需要二次编辑时用 |
 
-### 初中 · 物理（43 考点 / 51 页）
+### 初中 · 物理（45 考点 / 54 页）
 
 | 格式 | 下载 | 大小 | 用途 |
 |---|---|---|---|
@@ -68,7 +68,7 @@
 ├── LICENSE                      非商业使用许可
 │
 ├── 初中/
-│   ├── 物理/                    ✅ 已发布：43 考点 / 129 例题
+│   ├── 物理/                    ✅ 已发布：45 考点 / 135 例题
 │   │   ├── 01~09-*.md          9 个单元知识卡
 │   │   ├── 教材对照表.md        四册章节目录
 │   │   ├── README.md            初中物理单独说明
@@ -105,10 +105,10 @@
 |---|---|---|---|
 | 教材 | 四册 40 节 | 六册 109 节 | 149 节 |
 | 单元 | 9 | 20 | 29 |
-| 考点 | 43 | 166 | **209** |
-| 例题 | 129 | 498 | **627** |
+| 考点 | 45 | 166 | **211** |
+| 例题 | 135 | 498 | **633** |
 | 公式 | 59 | 184 | 243 |
-| 手册页数 | 51 | 229 | **280** |
+| 手册页数 | 54 | 229 | **283** |
 
 > 高中数学制作中：7/13 单元、21 考点、63 例题、46 条公式，产物见 `高中/数学/输出/`。
 
