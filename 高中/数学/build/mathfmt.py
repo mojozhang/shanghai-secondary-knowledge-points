@@ -61,16 +61,20 @@ SUP = {
     "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4",
     "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9",
     "⁺": "+", "⁻": "-", "ⁿ": "n", "ⁱ": "i",
+    "ᵃ": "a", "ᵇ": "b", "ᶜ": "c", "ᵈ": "d", "ᵉ": "e", "ᶠ": "f", "ᵍ": "g",
+    "ʰ": "h", "ʲ": "j", "ᵏ": "k", "ˡ": "l", "ᵐ": "m", "ᵒ": "o", "ᵖ": "p",
+    "ʳ": "r", "ˢ": "s", "ᵗ": "t", "ᵘ": "u", "ᵛ": "v", "ʷ": "w", "ˣ": "x",
+    "ʸ": "y", "ᶻ": "z",
     "²": "2", "³": "3", "¹": "1",       # U+00B2/B3/B9
 }
 SUB = {
     "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4",
     "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9",
     "₊": "+", "₋": "-", "ₐ": "a", "ₑ": "e", "ₒ": "o",
-    "ₓ": "x", "ₙ": "n", "ₖ": "k", "ₘ": "m", "ₚ": "p",
+    "ₓ": "x", "ₙ": "n", "ₖ": "k", "ₘ": "m", "ₚ": "p", "ᵤ": "U",
 }
 
-BASE = r"A-Za-z0-9\)\]\{\}α-ωΑ-Ω"
+BASE = r"A-Za-z0-9\)\]\{\}α-ωΑ-Ω∁"
 SUB_CHARS = "".join(SUB)
 SUP_CHARS = "".join(SUP)
 
@@ -82,7 +86,7 @@ def _readable(s: str) -> bool:
             continue
         if c in GREEK or c in SYMBOLS or c in SUB or c in SUP:
             continue
-        if c in "√∛∜":
+        if c in "√∛∜½¼¾":
             continue
         if 0x0300 <= ord(c) <= 0x036F:
             continue
@@ -93,6 +97,9 @@ def _readable(s: str) -> bool:
 def to_latex(s: str) -> str:
     s = s.strip()
 
+    # 0. 源文件里的 { } 是集合花括号，先转义成字面量，避免被 LaTeX 当成分组
+    s = s.replace("{", r"\{").replace("}", r"\}")
+
     # 1. 组合重音：v̄ → \bar{v}
     s = re.sub(r"([A-Za-zα-ωΑ-Ω])\u0304", lambda m: r"\bar{" + m.group(1) + "}", s)
     s = re.sub(r"([A-Za-zα-ωΑ-Ω])\u0305", lambda m: r"\overline{" + m.group(1) + "}", s)
@@ -101,6 +108,11 @@ def to_latex(s: str) -> str:
 
     # 2. 常用分数
     s = s.replace("½", r"\frac{1}{2}").replace("¼", r"\frac{1}{4}").replace("¾", r"\frac{3}{4}")
+
+    # 2.5 指数位置的分式：a^(m/n) → a^{\frac{m}{n}}，b^(-1/3) → b^{\frac{-1}{3}}
+    s = re.sub(r"\^\(\s*([^()/]{1,12})\s*/\s*([^()]{1,12})\s*\)",
+               lambda m: r"^{\frac{%s}{%s}}" % (m.group(1), m.group(2)), s)
+    s = re.sub(r"\^\(([^()]{1,24})\)", lambda m: "^{" + m.group(1) + "}", s)
 
     # 3. 根号
     RAD = {"√": "", "∛": "[3]", "∜": "[4]"}
@@ -161,10 +173,16 @@ def to_latex(s: str) -> str:
         s = re.sub(r"_\{([^{}]*)\}_\{([^{}]*)\}", r"_{\1\2}", s)
         s = re.sub(r"\^\{([^{}]*)\}\^\{([^{}]*)\}", r"^{\1\2}", s)
 
+    # 6.8 数与函数名之间的空格转成细空隙：45°cos → 45^\circ\,cos
+    s = re.sub(r"(?<=[0-9A-Za-z\)\}\]°α-ωΑ-Ω])\s+(?=(?:sin|cos|tan|cot|sec|csc|log|ln|lg)\b)", r"\\,", s)
+
     # 7. 函数名正体
     for fn in ["sin", "cos", "tan", "cot", "sec", "csc", "arcsin", "arccos", "arctan",
                "max", "min", "ln", "lg", "log", "exp", "lim", "sup", "inf"]:
-        s = re.sub(r"(?<![\\A-Za-z])" + fn + r"\b", lambda m: r"\mathrm{" + m.group(0) + "}", s)
+        s = re.sub(r"(?<![\\A-Za-z])" + fn + r"(?![A-Za-z])", lambda m: r"\mathrm{" + m.group(0) + "}", s)
+    # 函数名与自变量之间加细空隙：sin 210°、cos α（紧跟括号时不加）
+    s = re.sub(r"(\\mathrm\{(?:sin|cos|tan|cot|sec|csc|arcsin|arccos|arctan|log|ln|lg)\})\s?"
+               r"(?=[0-9A-Za-z" + "".join(GREEK) + r"]|\\[A-Za-z])", r"\1\\,", s)
 
     s = re.sub(r"\s+", " ", s).strip()
     # 兜底：仍残留的上下标字符（前面没有基底）→ 空基底上标
@@ -198,7 +216,8 @@ def needs_render(s: str) -> bool:
 
 
 SPAN_RE = re.compile(
-    r"[A-Za-z0-9₀-₉⁰-⁹²³α-ωΑ-Ω√∝=+\-−×÷/()\[\].,·_{} \t"
+    "[" + SUP_CHARS + SUB_CHARS +
+    r"A-Za-z0-9α-ωΑ-Ω√∝=+\-−×÷/()\[\].,·_{}½¼¾|^ \t"
     r"≤≥≈≠<>→⇒⇔∈∉∪∩⊆⊂⊇∅∀∃ℝℕℤℚℂ⌒∽≌∴∵∧∨%°′≪≫⇄∛∜:\u0300-\u036f]{2,}")
 
 
@@ -222,6 +241,10 @@ def spans(text: str, whole: bool = False):
         lead = len(raw) - len(raw.lstrip(" \t-−·,;:"))
         trail = len(raw) - len(raw.rstrip(" \t-−·,;:"))
         a, b = a + lead, b - trail
+        # 不要吞掉列表序号（"1. " / "- "），否则 Markdown 认不出列表
+        mm = re.match(r"^(?:\d+[.)]|[-•])\s+", text[a:b])
+        if mm:
+            a += mm.end()
         frag = text[a:b]
         if not frag or any(ch in frag for ch in "，。\n"):
             continue
@@ -230,6 +253,9 @@ def spans(text: str, whole: bool = False):
             b -= 1
             frag = text[a:b]
         if not frag or not _readable(frag):
+            continue
+        # 括号不配对（例如被中文逗号截断的集合{x | x > 0，x∈R}）不转公式，避免 MathJax 报错
+        if frag.count("{") != frag.count("}") or frag.count("(") != frag.count(")"):
             continue
         if not any(k in frag for k in "=√∝≪≫≈∈∪∩⊆⊂≥≤≠→⇒∧∨<>"):
             continue

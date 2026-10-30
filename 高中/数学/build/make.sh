@@ -4,7 +4,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 PY=python3
-DOCX_PY=/Users/mojozhang/.dsh/dsh-runtimes/dsh-primary-runtime/dependencies/python/bin/python3
+DOCX_PY=${DOCX_PY:-python3}   # 需要 python-docx + openpyxl + matplotlib
 
 echo "== 1/4 解析 Markdown =="
 $PY build/parse.py

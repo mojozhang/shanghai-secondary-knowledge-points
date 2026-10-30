@@ -24,6 +24,8 @@ DOCX = OUTDIR / "上海高中数学知识图谱手册.docx"
 PNG_DIR = ROOT / "图" / "png"
 
 SOFFICE = "/Applications/LibreOffice.app/Contents/MacOS/soffice"
+BODY_FORMULA_PT = 9.5     # 行内公式按正文字号渲染，保证与文字同高
+TABLE_FORMULA_PT = 8.0    # 表格内公式小一号
 GREEN = RGBColor(0x0B, 0x6B, 0x5B)
 GRAY = RGBColor(0x6B, 0x6B, 0x70)
 
@@ -76,11 +78,12 @@ def add_rich(p, text, size=9.5, bold=False, color=None, ea="宋体"):
         if a > pos:
             r = p.add_run(text[pos:a])
             set_font(r, size, bold, color, ea=ea)
-        r = mathfmt.render(frag)
+        r = mathfmt.render(frag, fontsize=BODY_FORMULA_PT)
         if r:
-            png, _, h_cm = r
+            png, w_cm, _ = r
             run = p.add_run()
-            run.add_picture(str(png), height=Cm(0.42))
+            # 按自然宽度插入（与正文字号同 em），长公式限宽，避免忽大忽小
+            run.add_picture(str(png), width=Cm(min(w_cm, 15.4)))
         else:
             r2 = p.add_run(frag)
             set_font(r2, size, bold, color, ea=ea)
@@ -106,9 +109,9 @@ def add_table(doc, rows):
             p.paragraph_format.space_before = Pt(0)
             p.paragraph_format.space_after = Pt(0)
             if mathfmt.is_formula(txt):
-                rr = mathfmt.render(txt)
+                rr = mathfmt.render(txt, fontsize=TABLE_FORMULA_PT)
                 if rr:
-                    p.add_run().add_picture(str(rr[0]), height=Cm(0.38))
+                    p.add_run().add_picture(str(rr[0]), width=Cm(min(rr[1], 4.1)))
                 else:
                     r = p.add_run(txt)
                     set_font(r, 8, bold=(i == 0), ea="宋体")
@@ -255,6 +258,8 @@ def render_body(doc, body):
 
 
 def main():
+    if not getattr(mathfmt, "_HAS_MPL", False):
+        print("WARN: matplotlib 不可用，公式会退化成纯文本；请用带 matplotlib 的 python 运行")
     d = json.loads(DATA.read_text(encoding="utf-8"))
     units = d["units"]
     convert_png()

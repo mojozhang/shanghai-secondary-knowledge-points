@@ -20,13 +20,17 @@ EX_RE = re.compile(r"^例题\s*(\d)\s*[·・]?\s*(L\d)?\s*(.*)$")
 
 
 def parse_table(lines):
-    """把连续的 | ... | 行解析成二维数组（去掉分隔行）。"""
+    """把连续的 | ... | 行解析成二维数组（去掉分隔行）。
+
+    表格里转义的 \\| 是公式中的绝对值符号（如 |α|），先换成哨兵再分列，
+    解析完再还原，保证 Word/Excel 里公式仍能识别。
+    """
     rows = []
     for ln in lines:
-        s = ln.strip().replace("\\|", "｜")
+        s = ln.strip().replace("\\|", "\ue001")
         if not s.startswith("|"):
             continue
-        cells = [c.strip() for c in s.strip("|").split("|")]
+        cells = [c.strip().replace("\ue001", "|") for c in s.strip("|").split("|")]
         if all(set(c) <= set("-: ") and c for c in cells):
             continue
         rows.append(cells)

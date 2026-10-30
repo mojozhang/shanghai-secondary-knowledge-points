@@ -49,14 +49,28 @@ def fmt_html(md_text):
     直接插 \( 会被 Markdown 当作转义字符吃掉，这是之前的 bug 根源。
     返回 (带占位符的文本, 公式列表)。
     """
-    pos, out, store = 0, [], []
-    for a, b, frag in mathfmt.spans(md_text, whole=True):
-        out.append(md_text[pos:a])
-        out.append("\u27e6M%d\u27e7" % len(store))
-        store.append(frag)
-        pos = b
-    out.append(md_text[pos:])
-    return "".join(out), store
+    store = []
+
+    def one(text):
+        pos, out = 0, []
+        for a, b, frag in mathfmt.spans(text, whole=True):
+            out.append(text[pos:a])
+            out.append("\u27e6M%d\u27e7" % len(store))
+            store.append(frag)
+            pos = b
+        out.append(text[pos:])
+        return "".join(out)
+
+    # 表格行逐单元格处理：| 在表格里是分列符，不能被当成绝对值符号整行吞掉
+    parts = []
+    for line in md_text.split("\n"):
+        s = line.strip()
+        if s.startswith("|") and s.count("|") >= 3:
+            tmp = line.replace("\\|", "\ue001")
+            parts.append("|".join(one(c) for c in tmp.split("|")).replace("\ue001", "\\|"))
+        else:
+            parts.append(one(line))
+    return "\n".join(parts), store
 
 
 def restore_math(html, store):
@@ -206,7 +220,10 @@ footer{border-top:1px solid var(--line);background:#fff;padding:6px 20px;font-si
   .print-card h3{font-size:10pt;margin:4mm 0 1mm}
   .print-card p,.print-card li{font-size:9pt;line-height:1.35;margin:1mm 0}
   .print-card table{font-size:8pt;margin:2mm 0}
-  .print-card th,.print-card td{padding:1.2mm 1.6mm}
+  .print-card th,.print-card td,.guide th,.guide td{padding:1.2mm 1.8mm;border-bottom:1px solid #e6e6e6;vertical-align:top}
+  .print-card table,.guide table{border-collapse:collapse;width:100%;font-size:8.5pt}
+  .print-card th,.guide th{background:#f1f6f4;text-align:left}
+  .print-card td:first-child,.guide td:first-child{white-space:nowrap}
   .print-card img{max-width:72%}
   .print-card h2,.print-card h3,.print-card table{break-after:avoid}
   .print-card{break-inside:auto}
@@ -215,7 +232,8 @@ footer{border-top:1px solid var(--line);background:#fff;padding:6px 20px;font-si
   .cover p{font-size:10pt;color:#555;margin:2mm}
   .toc{page-break-after:always}
   .toc h2{font-size:14pt;margin:0 0 4mm;color:#0b6b5b}
-  .toc-item{font-size:9pt;line-height:1.55;color:#222}
+  .toc-unit{font-size:9.5pt;line-height:1.6;color:#0b6b5b;font-weight:700;margin-top:2mm}
+  .toc-item{font-size:9pt;line-height:1.45;color:#222;padding-left:4mm}
   .guide{page-break-after:always}
 }
 </style></head>
@@ -358,6 +376,7 @@ $('#q').addEventListener('input', e => {
   });
 });
 document.querySelectorAll('.tab[data-v]').forEach(b => b.onclick = () => { setView(b.dataset.v); history.replaceState(null,'',b.dataset.v==='graph'?'#graph':'#card'); });
+if (!DATA.guide) { const gb = $('#guideBtn'); if (gb) gb.style.display = 'none'; }
 $('#guideBtn').onclick = () => {
   $('#card').innerHTML = DATA.guide;
   $('#content').style.display = 'block'; $('#graph').style.display = 'none';
@@ -373,12 +392,19 @@ buildTree();
   const box = $('#print');
   const cover = `<section class="cover">
       <h1>上海高中数学</h1><h1>知 识 图 谱</h1>
-      <p>上海高中数学 · 必修三册 · 166 考点 · 498 例题</p>
+      <p>必修三册 · ${DATA.stats.cards} 考点 · ${DATA.stats.examples} 例题</p>
       <p>2026-10-30</p></section>`;
-  const toc = '<section class="toc"><h2>目　录</h2>' +
-    DATA.cards.map(c => `<div class="toc-item">${c.id}　${c.name}</div>`).join('') +
-    '</section>';
-  const guide = `<section class="guide">${DATA.guide || ''}</section>`;
+  let tocBody = '';
+  let lastUnit = '';
+  DATA.cards.forEach(c => {
+    if (c.unit !== lastUnit) {
+      lastUnit = c.unit;
+      tocBody += `<div class="toc-unit">${c.unit}</div>`;
+    }
+    tocBody += `<div class="toc-item">${c.id}　${c.name}</div>`;
+  });
+  const toc = `<section class="toc"><h2>目　录</h2>${tocBody}</section>`;
+  const guide = DATA.guide ? `<section class="guide">${DATA.guide}</section>` : '';
   box.innerHTML = cover + toc + guide + DATA.cards.map(c =>
     `<article class="print-card"><h2>${c.id}　${c.name}</h2>${c.html}</article>`
   ).join('');
@@ -396,7 +422,7 @@ if (window.MathJax && MathJax.typesetPromise) {
 }
 })();
 $('#stat').textContent = `${DATA.stats.units} 单元 · ${DATA.stats.cards} 考点 · ${DATA.stats.examples} 例题 · ${DATA.stats.formulas} 公式`;
-$('#fname').textContent = DATA.cards.length + ' 个考点';
+$('#fname').textContent = DATA.cards.filter(c => !c.appendix).length + ' 个考点';
 if (location.hash === '#graph') setView('graph');
 </script>
 </body></html>"""

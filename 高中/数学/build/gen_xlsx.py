@@ -80,13 +80,14 @@ def main():
             ws.append([r["from"], r["to"], r["type"], u["title"]])
     style_sheet(ws, [12, 26, 16, 32], wrap_cols=(2, 4))
 
-    # --- 5 关卡地图 ---
-    ws = wb.create_sheet("关卡地图")
-    ws.append(["单元", "关", "考点", "难度", "星级", "状态"])
-    for u in units:
-        for lv in u["levels"]:
-            ws.append([u["title"], lv["no"], lv["name"], lv["diff"], lv["star"], "☐"])
-    style_sheet(ws, [32, 6, 30, 8, 10, 8], wrap_cols=(1, 3))
+    # --- 5 关卡地图（只有写了关卡表的单元才生成，避免空表） ---
+    if any(u["levels"] for u in units):
+        ws = wb.create_sheet("关卡地图")
+        ws.append(["单元", "关", "考点", "难度", "星级", "状态"])
+        for u in units:
+            for lv in u["levels"]:
+                ws.append([u["title"], lv["no"], lv["name"], lv["diff"], lv["star"], "☐"])
+        style_sheet(ws, [32, 6, 30, 8, 10, 8], wrap_cols=(1, 3))
 
     # --- 6 说明 ---
     ws = wb.create_sheet("说明")
@@ -96,7 +97,7 @@ def main():
         [""],
         ["统计", f"{s['units']} 个单元 / {s['cards']} 个考点 / {s['examples']} 道例题 / {s['formulas']} 条公式"],
         ["来源", "由 build/parse.py 从 Markdown 知识卡自动解析，源文件变更后重跑即可"],
-        ["用法", "考点总表按单元筛选；例题索引可当题库；公式表可打印成速查卡；关卡地图可做打卡"],
+        ["用法", "考点总表按单元筛选；例题索引可当题库；公式表可打印成速查卡"],
         ["", ""],
         ["版本", "v5（自评 + 分层 + 趣味层 + 限时 + 错题复仇）"],
     ]
