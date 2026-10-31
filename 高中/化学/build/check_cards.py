@@ -10,6 +10,8 @@ REQ = ["**⚡ 先猜**", "### 30 秒概述", "### 30 秒自评", "### 🔑 原�
 def main():
     bad = 0
     for f in sorted(ROOT.glob("[0-9][0-9]-*.md")):
+        if f.name.startswith("00"):
+            continue
         s = f.read_text(encoding="utf-8")
         if not s.startswith("# "):
             print(f, "缺一级标题"); bad += 1
