@@ -128,7 +128,7 @@ def main():
             ah = markdown.markdown(aw, extensions=["tables", "fenced_code", "sane_lists"])
             ah = fix_radicals(restore_math(ah, astore))
             ah = inline_svg(ah)
-            cards.append({"id": short, "name": "附录：自评 · 公式 · 易错 · 关系",
+            cards.append({"id": short, "name": "附录：自评 · 方程式 · 易错 · 关系",
                           "unit": u["title"], "u": ui, "i": 900, "html": ah,
                           "plain": re.sub(r"\s+", "", ah)[:4000], "appendix": True})
     for u in d["units"]:
@@ -224,7 +224,7 @@ footer{border-top:1px solid var(--line);background:#fff;padding:6px 20px;font-si
   <h1>上海高中化学 · 知识图谱</h1>
   <span class="stat" id="stat"></span>
   <span class="spacer"></span>
-  <input id="q" type="search" placeholder="搜索考点 / 公式 / 关键词…">
+  <input id="q" type="search" placeholder="搜索考点 / 方程式 / 关键词…">
   <div class="tabs"><button class="tab on" data-v="card">卡片</button><button class="tab" data-v="graph">图谱</button><button class="tab" id="guideBtn">怎么用</button></div>
 </header>
 <main>
@@ -395,7 +395,7 @@ if (window.MathJax && MathJax.typesetPromise) {
   MathJax.typesetPromise([document.getElementById('print')]).then(()=>{window.__MJ_DONE__=true;}).catch(()=>{window.__MJ_DONE__=true;});
 }
 })();
-$('#stat').textContent = `${DATA.stats.units} 单元 · ${DATA.stats.cards} 考点 · ${DATA.stats.examples} 例题 · ${DATA.stats.formulas} 公式`;
+$('#stat').textContent = `${DATA.stats.units} 单元 · ${DATA.stats.cards} 考点 · ${DATA.stats.examples} 例题 · ${DATA.stats.formulas} 条方程式`;
 $('#fname').textContent = DATA.cards.length + ' 个考点';
 if (location.hash === '#graph') setView('graph');
 </script>

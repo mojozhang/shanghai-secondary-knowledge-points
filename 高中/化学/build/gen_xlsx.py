@@ -65,8 +65,8 @@ def main():
     style_sheet(ws, [10, 8, 8, 24, 76], wrap_cols=(4, 5))
 
     # --- 3 公式表 ---
-    ws = wb.create_sheet("公式表")
-    ws.append(["单元", "#", "公式", "含义", "适用条件"])
+    ws = wb.create_sheet("方程式表")
+    ws.append(["单元", "#", "方程式", "含义", "适用条件"])
     for u in units:
         for f in u["formulas"]:
             ws.append([f["unit"], f["no"], f["formula"], f["meaning"], f["cond"]])
@@ -92,11 +92,11 @@ def main():
     ws = wb.create_sheet("说明")
     s = d["stats"]
     rows = [
-        ["《上海高中化学知识图谱》考点与公式清单"],
+        ["《上海高中化学知识图谱》考点与方程式清单"],
         [""],
-        ["统计", f"{s['units']} 个单元 / {s['cards']} 个考点 / {s['examples']} 道例题 / {s['formulas']} 条公式"],
+        ["统计", f"{s['units']} 个单元 / {s['cards']} 个考点 / {s['examples']} 道例题 / {s['formulas']} 条方程式"],
         ["来源", "由 build/parse.py 从 Markdown 知识卡自动解析，源文件变更后重跑即可"],
-        ["用法", "考点总表按单元筛选；例题索引可当题库；公式表可打印成速查卡；关卡地图可做打卡"],
+        ["用法", "考点总表按单元筛选；例题索引可当题库；方程式表可打印成速查卡；关卡地图可做打卡"],
         ["", ""],
         ["版本", "v5（自评 + 分层 + 趣味层 + 限时 + 错题复仇）"],
     ]

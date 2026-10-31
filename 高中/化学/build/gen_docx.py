@@ -278,7 +278,7 @@ def main():
     para(doc, "自评 · 分层 · 例题 · 限时 · 错题回炉", 12, False, GRAY, WD_ALIGN_PARAGRAPH.CENTER)
     doc.add_paragraph()
     s = d["stats"]
-    para(doc, f"{s['units']} 个单元　{s['cards']} 个考点　{s['examples']} 道例题　{s['formulas']} 条公式",
+    para(doc, f"{s['units']} 个单元　{s['cards']} 个考点　{s['examples']} 道例题　{s['formulas']} 条方程式",
          11, False, GRAY, WD_ALIGN_PARAGRAPH.CENTER)
     para(doc, "2026-10-31", 10, False, GRAY, WD_ALIGN_PARAGRAPH.CENTER)
     doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
