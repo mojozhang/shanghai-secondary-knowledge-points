@@ -1,6 +1,6 @@
 # 高中英语 · 知识点汇总
 
-> **状态**：内容完成（v1.2.1）。28 张单元卡（E-1.1～E-7.4）；词汇 1560 条（去重 1440）；7 篇故事全部完成，**词形覆盖 1560/1560（其中 1442 个出现原形，118 个仅以屈折/派生形出现）**。
+> **状态**：内容完成（v1.2.2）。28 张单元卡（E-1.1～E-7.4）；词汇 1560 条（去重 1440）；7 篇故事全部完成，**原形覆盖 1560/1560、词形覆盖 1560/1560**。
 
 按上海教育出版社 2022 版《英语》必修第一至第三册、选择性必修第一至第四册编排，28 个单元。体例沿用物理、数学卷：每单元一张卡片，含 30 秒自评、用法与陷阱、三道梯度例题、限时挑战与过关线。
 
@@ -39,25 +39,27 @@
 
 ## 下载
 
-已发布在 [v1.2 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2.1)：
+已发布在 [v1.2.2 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2.2)：
 
 | 格式 | 文件 | 用途 |
 |---|---|---|
-| PDF（手册） | [high-english-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-handbook.pdf) | 28 张单元卡，86 页 |
-| PDF（词汇默写本） | [high-english-vocab-workbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-vocab-workbook.pdf) | 词表 + 5 勾 + 7 篇故事，111 页 |
-| HTML | [high-english-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-graph.html) | 卡片 + 交互词汇打勾 |
-| Excel | [high-english-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-points.xlsx) | 单元 / 必背词 / 词汇总表 / 故事 |
-| Word | [high-english-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-handbook.docx) | 二次编辑 |
+| PDF（手册） | [high-english-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-handbook.pdf) | 28 张单元卡，86 页 |
+| PDF（词汇默写本） | [high-english-vocab-workbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-vocab-workbook.pdf) | 词表 + 5 勾 + 7 篇故事，111 页 |
+| HTML | [high-english-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-graph.html) | 卡片 + 交互词汇打勾 |
+| Excel | [high-english-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-points.xlsx) | 单元 / 必背词 / 词汇总表 / 故事 |
+| Word | [high-english-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-handbook.docx) | 二次编辑 |
 
-> 版本与提交的对应关系见 [`CHANGELOG.md`](CHANGELOG.md)：v1.2 = `6ba2ce9`，v1.2.1 = 修正版（故事笔误、体例文档、覆盖口径）。
+> 版本与提交的对应关系见 [`CHANGELOG.md`](CHANGELOG.md)：v1.2 = `6ba2ce9`，v1.2.1 = 修正版，v1.2.2 = 原形全覆盖 + PDF 无损压缩。
 
 ## 构建
 
 ```bash
-bash build/make.sh                      # 8 步重建全部产物
+bash build/make.sh                      # 9 步重建全部产物（末步用 qpdf 无损压缩 PDF）
 python3 build/story_check.py            # 词形覆盖（缺失即非零退出）
 python3 build/story_check.py --strict   # 原形覆盖（仅屈折也算未覆盖）
 ```
+
+> PDF 由 Chrome 打印后用 `qpdf` 重压缩（合并对象流 + flate level 9），体积约减半，字体与文本层不变；未装 qpdf 时自动跳过。
 
 产物：
 - `输出/上海高中英语知识图谱手册.pdf`（单元卡片）

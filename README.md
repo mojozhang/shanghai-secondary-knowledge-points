@@ -10,7 +10,7 @@
 
 ## 一、直接下载
 
-> 点击即下载，不需要登录。物理文件挂在 **[v1.0 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.0)**，高中数学挂在 **[v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)**，高中英语挂在 **[v1.2.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2.1)**，支持断点续传。
+> 点击即下载，不需要登录。物理文件挂在 **[v1.0 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.0)**，高中数学挂在 **[v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)**，高中英语挂在 **[v1.2.2 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2.2)**，支持断点续传。
 
 ### 高中 · 物理（166 考点 / 229 页）
 
@@ -43,11 +43,11 @@
 
 | 格式 | 下载 | 大小 | 用途 |
 |---|---|---|---|
-| **PDF（手册）** | [high-english-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-handbook.pdf) | 3.0 MB | 28 张单元卡，A4 打印 |
-| **PDF（词汇默写本）** | [high-english-vocab-workbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-vocab-workbook.pdf) | 8.8 MB | 词表 + 5 勾 + 7 篇故事 |
-| **HTML** | [high-english-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-graph.html) | 374 KB | 卡片 + 交互词汇打勾 + 随机抽词 |
-| **Excel** | [high-english-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-points.xlsx) | 134 KB | 单元 / 必背词 / 词汇总表 / 故事 |
-| **Word** | [high-english-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.1/high-english-handbook.docx) | 158 KB | 需要二次编辑时用 |
+| **PDF（手册）** | [high-english-handbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-handbook.pdf) | 1.5 MB | 28 张单元卡，A4 打印 |
+| **PDF（词汇默写本）** | [high-english-vocab-workbook.pdf](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-vocab-workbook.pdf) | 4.6 MB | 词表 + 5 勾 + 7 篇故事 |
+| **HTML** | [high-english-graph.html](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-graph.html) | 374 KB | 卡片 + 交互词汇打勾 + 随机抽词 |
+| **Excel** | [high-english-points.xlsx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-points.xlsx) | 134 KB | 单元 / 必背词 / 词汇总表 / 故事 |
+| **Word** | [high-english-handbook.docx](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/download/v1.2.2/high-english-handbook.docx) | 158 KB | 需要二次编辑时用 |
 
 > 文件名是英文的，下载后可自行改名；发布页上每个文件都标了中文名称。
 
@@ -67,7 +67,7 @@
 | 第 4 批 | 初中 | 生物 | 计划中 | 视进度 |
 | 第 5 批 | 高中 | 语文 | 计划中 | 视进度 |
 | 第 5 批 | 初中 | 语文 | 计划中 | 视进度 |
-| 第 6 批 | 高中 | **英语** | ✅ 已发布（v1.2.1） | 2026-10 |
+| 第 6 批 | 高中 | **英语** | ✅ 已发布（v1.2.2） | 2026-10 |
 | 第 6 批 | 初中 | 英语 | 计划中 | 视进度 |
 
 **为什么这个顺序：**
@@ -145,7 +145,7 @@
 
 > 高中数学已发布：13 单元、41 考点、123 例题、91 条公式、70 页手册，见 [v1.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.1)。
 >
-> 高中英语已发布：28 单元、1560 词条（去重 1440）、7 篇故事（词形覆盖 1560/1560，其中原形 1442）、86 页手册 + 111 页词汇默写本，见 [v1.2.1 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2.1)。版本与提交的对应见 [`高中/英语/CHANGELOG.md`](高中/英语/CHANGELOG.md)。
+> 高中英语已发布：28 单元、1560 词条（去重 1440）、7 篇故事（原形覆盖 1560/1560）、86 页手册 + 111 页词汇默写本，见 [v1.2.2 发布页](https://github.com/mojozhang/shanghai-secondary-knowledge-points/releases/tag/v1.2.2)。版本与提交的对应见 [`高中/英语/CHANGELOG.md`](高中/英语/CHANGELOG.md)。
 
 ---
 
@@ -229,3 +229,4 @@ cd 高中/英语 && bash build/make.sh
 | v1.1 | 高中数学 | `553c896` |
 | v1.2 | 高中英语 | `6ba2ce9`（tag 已从 `aa05c16` 前移到发布资产对应的提交） |
 | v1.2.1 | 高中英语修正版（体例文档、故事笔误、覆盖口径） | 见 `高中/英语/CHANGELOG.md` |
+| v1.2.2 | 高中英语：1560 个词全部原形出现 + PDF 无损压缩（体积约减半） | 见 `高中/英语/CHANGELOG.md` |
